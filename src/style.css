@@ -47,6 +47,12 @@ body {
 }
 #debug button.on { background: var(--accent); color: #fff; }
 #mute { position: absolute; top: 8px; right: 8px; z-index: 3; }
+#fullscreen {
+  position: absolute; top: 8px; right: 46px; z-index: 3;
+  font: inherit; font-size: 16px; border: 0; border-radius: 10px; width: 32px; height: 30px;
+  background: #ffffffd0; color: var(--ink); box-shadow: 0 3px 0 #0004; cursor: pointer;
+}
+#fullscreen[hidden] { display: none; }
 
 #bubble {
   position: absolute; z-index: 2; display: none;

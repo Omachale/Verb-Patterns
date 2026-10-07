@@ -2,8 +2,8 @@ import * as THREE from "three";
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
-import { generateQuestion, checkAnswer } from "./verbs.js?v=4";
-import { Sfx } from "./sfx.js?v=4";
+import { generateQuestion, checkAnswer } from "./verbs.js?v=5";
+import { Sfx } from "./sfx.js?v=5";
 
 const V3 = THREE.Vector3;
 const sfx = new Sfx();
@@ -452,40 +452,34 @@ function checkPerformance(dt) {
   }
 }
 
-// ───────────────────────── Player spotlight ─────────────────────────
-// A soft green pool of light from the ceiling marks the player and their desk.
-// One shadowless spotlight plus a faint additive beam: cheap on phones.
-const spot = new THREE.SpotLight("#6dff8e", 9, 9, 0.3, 0.7, 0);
-spot.position.set(0, 7, 0);
-scene.add(spot, spot.target);
-const beam = (() => {
+// ───────────────────────── Player marker ─────────────────────────
+// A soft green circle on the floor around the player. Desks and chairs hide parts of it,
+// which is fine. One flat transparent mesh: practically free.
+const ring = (() => {
   const c = document.createElement("canvas");
-  c.width = 4; c.height = 64;
+  c.width = c.height = 128;
   const g = c.getContext("2d");
-  const grad = g.createLinearGradient(0, 0, 0, 64);
-  grad.addColorStop(0, "#fff");
-  grad.addColorStop(1, "#000");
+  const grad = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+  grad.addColorStop(0, "rgba(90,255,130,0.6)");
+  grad.addColorStop(0.7, "rgba(90,255,130,0.55)");
+  grad.addColorStop(0.86, "rgba(170,255,190,1)");    // brighter rim
+  grad.addColorStop(1, "rgba(90,255,130,0)");
   g.fillStyle = grad;
-  g.fillRect(0, 0, 4, 64);
-  const mesh = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 1.15, 5.6, 24, 1, true), new THREE.MeshBasicMaterial({
-    color: "#7dff9a", transparent: true, opacity: 0.2, alphaMap: new THREE.CanvasTexture(c),
-    blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide
-  }));
-  mesh.position.y = 2.8;
+  g.fillRect(0, 0, 128, 128);
+  const tex = new THREE.CanvasTexture(c);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  const mesh = new THREE.Mesh(new THREE.PlaneGeometry(2.6, 2.6),
+    new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthWrite: false }));
+  mesh.rotation.x = -Math.PI / 2;
+  mesh.position.y = 0.07;                              // just above the rug
+  mesh.renderOrder = 1;
   scene.add(mesh);
   return mesh;
 })();
-const spotGoal = new V3();
-const Y_AXIS = new V3(0, 1, 0);
-function updateSpot(dt) {
-  // Aim a little in front of the player so their desk is lit too.
-  spotGoal.set(0, 0, 0.35).applyAxisAngle(Y_AXIS, player.root.rotation.y).add(player.root.position);
-  spotGoal.y = 0;
-  spot.target.position.lerp(spotGoal, Math.min(1, dt * 5));
-  spot.position.set(spot.target.position.x, 7, spot.target.position.z);
-  beam.position.x = spot.target.position.x;
-  beam.position.z = spot.target.position.z;
-  spot.visible = beam.visible = player.root.visible;
+function updateRing() {
+  ring.position.x = player.root.position.x;
+  ring.position.z = player.root.position.z;
+  ring.visible = player.root.visible;
 }
 
 // ───────────────────────── Merge the static scenery ─────────────────────────
@@ -1251,6 +1245,23 @@ muteBtn.addEventListener("click", () => {
 document.getElementById("again").addEventListener("click", () => { sfx.unlock(); resetGame(); });
 document.getElementById("change").addEventListener("click", () => { sfx.unlock(); card.hidden = true; showPicker(); });
 
+// ───────────────────────── Full screen ─────────────────────────
+// Browsers only allow this from a tap, so it happens when the player picks a character,
+// and the ⛶ button toggles it. Not available in iPhone Safari, so the button hides there.
+const fsBtn = document.getElementById("fullscreen");
+const canFullscreen = !!document.documentElement.requestFullscreen;
+fsBtn.hidden = !canFullscreen;
+function enterFullscreen() {
+  if (!canFullscreen || document.fullscreenElement) return;
+  document.documentElement.requestFullscreen({ navigationUI: "hide" })
+    .then(() => screen.orientation?.lock?.("portrait").catch(() => {}))
+    .catch(() => {});
+}
+fsBtn.addEventListener("click", () => {
+  if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+  else enterFullscreen();
+});
+
 // ───────────────────────── Character picker ─────────────────────────
 const picker = document.getElementById("picker");
 function showPicker() {
@@ -1268,6 +1279,7 @@ picker.addEventListener("click", (e) => {
   if (!b) return;
   sfx.unlock();
   sfx.correct();
+  enterFullscreen();
   setAvatar(AVATARS.find((a) => a.id === b.dataset.id));
   picker.hidden = true;
   resetGame();
@@ -1506,8 +1518,7 @@ function tick(nowMs) {
     fpsEl.textContent = `${Math.round(fpsFrames / fpsTime)} fps · ${Math.round(fpsDraws / fpsTime)} draws`;
     fpsFrames = fpsDraws = 0; fpsTime = 0;
   }
-  updateSpot(dt);
-  if (spot.target.position.distanceToSquared(spotGoal) > 1e-5) dirty = true;
+  updateRing();
   checkPerformance(dt);
   if (!dirty) return;
   if (dust.visible) driftDust(clock);
