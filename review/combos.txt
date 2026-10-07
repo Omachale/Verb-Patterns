@@ -1,0 +1,1210 @@
+PART A — tense & time phrase for each verb
+
+■ decide
+  She decided to sleep yesterday.                                → to sleep
+  We decided to sleep yesterday.                                 → to sleep
+  She decided to sleep last weekend.                             → to sleep
+  We decided to sleep last weekend.                              → to sleep
+  She decided to sleep last night.                               → to sleep
+  We decided to sleep last night.                                → to sleep
+  She decided to sleep on Saturday.                              → to sleep
+  We decided to sleep on Saturday.                               → to sleep
+  She decided to sleep tomorrow.                                 → to sleep
+  We decided to sleep tomorrow.                                  → to sleep
+  She decided to sleep this weekend.                             → to sleep
+  We decided to sleep this weekend.                              → to sleep
+  She decided to sleep next week.                                → to sleep
+  We decided to sleep next week.                                 → to sleep
+  She decided to sleep on Saturday.                              → to sleep
+  We decided to sleep on Saturday.                               → to sleep
+  She decided to sleep.                                          → to sleep
+  We decided to sleep.                                           → to sleep
+  She has just decided to sleep.                                 → to sleep
+  We have just decided to sleep.                                 → to sleep
+  She has already decided to sleep.                              → to sleep
+  We have already decided to sleep.                              → to sleep
+
+■ forget
+  She always forgets to wait at the weekend.                     → to wait
+  We always forget to wait at the weekend.                       → to wait
+  She always forgets to wait on Saturdays.                       → to wait
+  We always forget to wait on Saturdays.                         → to wait
+  She always forgets to wait after school.                       → to wait
+  We always forget to wait after school.                         → to wait
+  She always forgets to wait.                                    → to wait
+  We always forget to wait.                                      → to wait
+  She often forgets to wait at the weekend.                      → to wait
+  We often forget to wait at the weekend.                        → to wait
+  She often forgets to wait on Saturdays.                        → to wait
+  We often forget to wait on Saturdays.                          → to wait
+  She often forgets to wait after school.                        → to wait
+  We often forget to wait after school.                          → to wait
+  She often forgets to wait.                                     → to wait
+  We often forget to wait.                                       → to wait
+  She forgot to wait yesterday.                                  → to wait
+  We forgot to wait yesterday.                                   → to wait
+  She forgot to wait last weekend.                               → to wait
+  We forgot to wait last weekend.                                → to wait
+  She forgot to wait last night.                                 → to wait
+  We forgot to wait last night.                                  → to wait
+  She forgot to wait on Saturday.                                → to wait
+  We forgot to wait on Saturday.                                 → to wait
+  She forgot to wait again.                                      → to wait
+  We forgot to wait again.                                       → to wait
+  She has forgotten to wait again.                               → to wait
+  We have forgotten to wait again.                               → to wait
+  She has forgotten to wait.                                     → to wait
+  We have forgotten to wait.                                     → to wait
+
+■ hope
+  She hopes to sleep tomorrow.                                   → to sleep
+  We hope to sleep tomorrow.                                     → to sleep
+  She hopes to sleep this weekend.                               → to sleep
+  We hope to sleep this weekend.                                 → to sleep
+  She hopes to sleep next week.                                  → to sleep
+  We hope to sleep next week.                                    → to sleep
+  She hopes to sleep on Saturday.                                → to sleep
+  We hope to sleep on Saturday.                                  → to sleep
+  She is hoping to sleep tomorrow.                               → to sleep
+  We are hoping to sleep tomorrow.                               → to sleep
+  She is hoping to sleep this weekend.                           → to sleep
+  We are hoping to sleep this weekend.                           → to sleep
+  She is hoping to sleep next week.                              → to sleep
+  We are hoping to sleep next week.                              → to sleep
+  She is hoping to sleep on Saturday.                            → to sleep
+  We are hoping to sleep on Saturday.                            → to sleep
+
+■ learn
+  She learned to swim last year.                                 → to swim
+  We learned to swim last year.                                  → to swim
+  She learned to swim last summer.                               → to swim
+  We learned to swim last summer.                                → to swim
+  She is learning to swim at the moment.                         → to swim
+  We are learning to swim at the moment.                         → to swim
+  She is learning to swim right now.                             → to swim
+  We are learning to swim right now.                             → to swim
+  She has just learned to swim.                                  → to swim
+  We have just learned to swim.                                  → to swim
+  She has already learned to swim.                               → to swim
+  We have already learned to swim.                               → to swim
+
+■ need
+  She needs to sleep every weekend.                              → to sleep
+  We need to sleep every weekend.                                → to sleep
+  She needs to sleep at the weekend.                             → to sleep
+  We need to sleep at the weekend.                               → to sleep
+  She needs to sleep on Saturdays.                               → to sleep
+  We need to sleep on Saturdays.                                 → to sleep
+  She needs to sleep after school.                               → to sleep
+  We need to sleep after school.                                 → to sleep
+  She needs to sleep every day.                                  → to sleep
+  We need to sleep every day.                                    → to sleep
+  She needs to sleep tomorrow.                                   → to sleep
+  We need to sleep tomorrow.                                     → to sleep
+  She needs to sleep this weekend.                               → to sleep
+  We need to sleep this weekend.                                 → to sleep
+  She needs to sleep next week.                                  → to sleep
+  We need to sleep next week.                                    → to sleep
+  She needs to sleep on Saturday.                                → to sleep
+  We need to sleep on Saturday.                                  → to sleep
+  She needs to sleep.                                            → to sleep
+  We need to sleep.                                              → to sleep
+  She needed to sleep yesterday.                                 → to sleep
+  We needed to sleep yesterday.                                  → to sleep
+  She needed to sleep last weekend.                              → to sleep
+  We needed to sleep last weekend.                               → to sleep
+  She needed to sleep last night.                                → to sleep
+  We needed to sleep last night.                                 → to sleep
+  She needed to sleep on Saturday.                               → to sleep
+  We needed to sleep on Saturday.                                → to sleep
+
+■ plan
+  She plans to sleep tomorrow.                                   → to sleep
+  We plan to sleep tomorrow.                                     → to sleep
+  She plans to sleep this weekend.                               → to sleep
+  We plan to sleep this weekend.                                 → to sleep
+  She plans to sleep next week.                                  → to sleep
+  We plan to sleep next week.                                    → to sleep
+  She plans to sleep on Saturday.                                → to sleep
+  We plan to sleep on Saturday.                                  → to sleep
+  She is planning to sleep tomorrow.                             → to sleep
+  We are planning to sleep tomorrow.                             → to sleep
+  She is planning to sleep this weekend.                         → to sleep
+  We are planning to sleep this weekend.                         → to sleep
+  She is planning to sleep next week.                            → to sleep
+  We are planning to sleep next week.                            → to sleep
+  She is planning to sleep on Saturday.                          → to sleep
+  We are planning to sleep on Saturday.                          → to sleep
+  She planned to sleep yesterday.                                → to sleep
+  We planned to sleep yesterday.                                 → to sleep
+  She planned to sleep last weekend.                             → to sleep
+  We planned to sleep last weekend.                              → to sleep
+  She planned to sleep last night.                               → to sleep
+  We planned to sleep last night.                                → to sleep
+  She planned to sleep on Saturday.                              → to sleep
+  We planned to sleep on Saturday.                               → to sleep
+
+■ pretend
+  She pretended to sleep yesterday.                              → to sleep
+  We pretended to sleep yesterday.                               → to sleep
+  She pretended to sleep last weekend.                           → to sleep
+  We pretended to sleep last weekend.                            → to sleep
+  She pretended to sleep last night.                             → to sleep
+  We pretended to sleep last night.                              → to sleep
+  She pretended to sleep on Saturday.                            → to sleep
+  We pretended to sleep on Saturday.                             → to sleep
+  She is pretending to sleep at the moment.                      → to sleep
+  We are pretending to sleep at the moment.                      → to sleep
+  She is pretending to sleep right now.                          → to sleep
+  We are pretending to sleep right now.                          → to sleep
+
+■ remember (to)
+  She always remembers to wait at the weekend.                   → to wait
+  We always remember to wait at the weekend.                     → to wait
+  She always remembers to wait on Saturdays.                     → to wait
+  We always remember to wait on Saturdays.                       → to wait
+  She always remembers to wait after school.                     → to wait
+  We always remember to wait after school.                       → to wait
+  She always remembers to wait.                                  → to wait
+  We always remember to wait.                                    → to wait
+  She never remembers to wait at the weekend.                    → to wait
+  We never remember to wait at the weekend.                      → to wait
+  She never remembers to wait on Saturdays.                      → to wait
+  We never remember to wait on Saturdays.                        → to wait
+  She never remembers to wait after school.                      → to wait
+  We never remember to wait after school.                        → to wait
+  She never remembers to wait.                                   → to wait
+  We never remember to wait.                                     → to wait
+  She remembered to wait this time.                              → to wait
+  We remembered to wait this time.                               → to wait
+  She remembered to wait for once.                               → to wait
+  We remembered to wait for once.                                → to wait
+
+■ would like
+  She would like to sleep tomorrow.                              → to sleep
+  We would like to sleep tomorrow.                               → to sleep
+  She would like to sleep this weekend.                          → to sleep
+  We would like to sleep this weekend.                           → to sleep
+  She would like to sleep next week.                             → to sleep
+  We would like to sleep next week.                              → to sleep
+  She would like to sleep on Saturday.                           → to sleep
+  We would like to sleep on Saturday.                            → to sleep
+  She would like to sleep.                                       → to sleep
+  We would like to sleep.                                        → to sleep
+
+■ promise
+  She promised to wait yesterday.                                → to wait
+  We promised to wait yesterday.                                 → to wait
+  She promised to wait last weekend.                             → to wait
+  We promised to wait last weekend.                              → to wait
+  She promised to wait last night.                               → to wait
+  We promised to wait last night.                                → to wait
+  She promised to wait on Saturday.                              → to wait
+  We promised to wait on Saturday.                               → to wait
+  She promised to wait tomorrow.                                 → to wait
+  We promised to wait tomorrow.                                  → to wait
+  She promised to wait this weekend.                             → to wait
+  We promised to wait this weekend.                              → to wait
+  She promised to wait next week.                                → to wait
+  We promised to wait next week.                                 → to wait
+  She promised to wait on Saturday.                              → to wait
+  We promised to wait on Saturday.                               → to wait
+  She promised to wait.                                          → to wait
+  We promised to wait.                                           → to wait
+  She has just promised to wait.                                 → to wait
+  We have just promised to wait.                                 → to wait
+
+■ offer
+  She offered to wait yesterday.                                 → to wait
+  We offered to wait yesterday.                                  → to wait
+  She offered to wait last weekend.                              → to wait
+  We offered to wait last weekend.                               → to wait
+  She offered to wait last night.                                → to wait
+  We offered to wait last night.                                 → to wait
+  She offered to wait on Saturday.                               → to wait
+  We offered to wait on Saturday.                                → to wait
+  She offered to wait.                                           → to wait
+  We offered to wait.                                            → to wait
+  She has just offered to wait.                                  → to wait
+  We have just offered to wait.                                  → to wait
+
+■ want
+  She wants to sleep tomorrow.                                   → to sleep
+  We want to sleep tomorrow.                                     → to sleep
+  She wants to sleep this weekend.                               → to sleep
+  We want to sleep this weekend.                                 → to sleep
+  She wants to sleep next week.                                  → to sleep
+  We want to sleep next week.                                    → to sleep
+  She wants to sleep on Saturday.                                → to sleep
+  We want to sleep on Saturday.                                  → to sleep
+  She wants to sleep.                                            → to sleep
+  We want to sleep.                                              → to sleep
+  She wanted to sleep yesterday.                                 → to sleep
+  We wanted to sleep yesterday.                                  → to sleep
+  She wanted to sleep last weekend.                              → to sleep
+  We wanted to sleep last weekend.                               → to sleep
+  She wanted to sleep last night.                                → to sleep
+  We wanted to sleep last night.                                 → to sleep
+  She wanted to sleep on Saturday.                               → to sleep
+  We wanted to sleep on Saturday.                                → to sleep
+
+■ enjoy
+  She enjoys sleeping at the weekend.                            → sleeping
+  We enjoy sleeping at the weekend.                              → sleeping
+  She enjoys sleeping on Saturdays.                              → sleeping
+  We enjoy sleeping on Saturdays.                                → sleeping
+  She enjoys sleeping after school.                              → sleeping
+  We enjoy sleeping after school.                                → sleeping
+  She enjoys sleeping.                                           → sleeping
+  We enjoy sleeping.                                             → sleeping
+  She enjoyed sleeping yesterday.                                → sleeping
+  We enjoyed sleeping yesterday.                                 → sleeping
+  She enjoyed sleeping last weekend.                             → sleeping
+  We enjoyed sleeping last weekend.                              → sleeping
+  She enjoyed sleeping last night.                               → sleeping
+  We enjoyed sleeping last night.                                → sleeping
+  She enjoyed sleeping on Saturday.                              → sleeping
+  We enjoyed sleeping on Saturday.                               → sleeping
+  She has always enjoyed sleeping.                               → sleeping
+  We have always enjoyed sleeping.                               → sleeping
+  She has never enjoyed sleeping.                                → sleeping
+  We have never enjoyed sleeping.                                → sleeping
+
+■ feel like
+  She feels like sleeping at the moment.                         → sleeping
+  We feel like sleeping at the moment.                           → sleeping
+  She feels like sleeping right now.                             → sleeping
+  We feel like sleeping right now.                               → sleeping
+  She feels like sleeping.                                       → sleeping
+  We feel like sleeping.                                         → sleeping
+  She felt like sleeping yesterday.                              → sleeping
+  We felt like sleeping yesterday.                               → sleeping
+  She felt like sleeping last weekend.                           → sleeping
+  We felt like sleeping last weekend.                            → sleeping
+  She felt like sleeping last night.                             → sleeping
+  We felt like sleeping last night.                              → sleeping
+  She felt like sleeping on Saturday.                            → sleeping
+  We felt like sleeping on Saturday.                             → sleeping
+
+■ finish
+  She finished studying yesterday.                               → studying
+  We finished studying yesterday.                                → studying
+  She finished studying last weekend.                            → studying
+  We finished studying last weekend.                             → studying
+  She finished studying last night.                              → studying
+  We finished studying last night.                               → studying
+  She finished studying on Saturday.                             → studying
+  We finished studying on Saturday.                              → studying
+  She has just finished studying.                                → studying
+  We have just finished studying.                                → studying
+  She has already finished studying.                             → studying
+  We have already finished studying.                             → studying
+
+■ go on
+  She went on sleeping.                                          → sleeping
+  We went on sleeping.                                           → sleeping
+  She went on sleeping last night.                               → sleeping
+  We went on sleeping last night.                                → sleeping
+  She went on sleeping all afternoon.                            → sleeping
+  We went on sleeping all afternoon.                             → sleeping
+
+■ hate
+  She hates sleeping at the weekend.                             → sleeping
+  We hate sleeping at the weekend.                               → sleeping
+  She hates sleeping on Saturdays.                               → sleeping
+  We hate sleeping on Saturdays.                                 → sleeping
+  She hates sleeping after school.                               → sleeping
+  We hate sleeping after school.                                 → sleeping
+  She hates sleeping.                                            → sleeping
+  We hate sleeping.                                              → sleeping
+  She hated sleeping as a child.                                 → sleeping
+  We hated sleeping as a child.                                  → sleeping
+  She hated sleeping years ago.                                  → sleeping
+  We hated sleeping years ago.                                   → sleeping
+  She has always hated sleeping.                                 → sleeping
+  We have always hated sleeping.                                 → sleeping
+
+■ like
+  She likes sleeping at the weekend.                             → sleeping
+  We like sleeping at the weekend.                               → sleeping
+  She likes sleeping on Saturdays.                               → sleeping
+  We like sleeping on Saturdays.                                 → sleeping
+  She likes sleeping after school.                               → sleeping
+  We like sleeping after school.                                 → sleeping
+  She likes sleeping.                                            → sleeping
+  We like sleeping.                                              → sleeping
+  She liked sleeping as a child.                                 → sleeping
+  We liked sleeping as a child.                                  → sleeping
+  She liked sleeping years ago.                                  → sleeping
+  We liked sleeping years ago.                                   → sleeping
+  She has always liked sleeping.                                 → sleeping
+  We have always liked sleeping.                                 → sleeping
+  She has never liked sleeping.                                  → sleeping
+  We have never liked sleeping.                                  → sleeping
+
+■ love
+  She loves sleeping at the weekend.                             → sleeping
+  We love sleeping at the weekend.                               → sleeping
+  She loves sleeping on Saturdays.                               → sleeping
+  We love sleeping on Saturdays.                                 → sleeping
+  She loves sleeping after school.                               → sleeping
+  We love sleeping after school.                                 → sleeping
+  She loves sleeping.                                            → sleeping
+  We love sleeping.                                              → sleeping
+  She loved sleeping as a child.                                 → sleeping
+  We loved sleeping as a child.                                  → sleeping
+  She loved sleeping years ago.                                  → sleeping
+  We loved sleeping years ago.                                   → sleeping
+  She has always loved sleeping.                                 → sleeping
+  We have always loved sleeping.                                 → sleeping
+
+■ don't mind
+  She doesn't mind waiting at the weekend.                       → waiting
+  We don't mind waiting at the weekend.                          → waiting
+  She doesn't mind waiting on Saturdays.                         → waiting
+  We don't mind waiting on Saturdays.                            → waiting
+  She doesn't mind waiting after school.                         → waiting
+  We don't mind waiting after school.                            → waiting
+  She doesn't mind waiting.                                      → waiting
+  We don't mind waiting.                                         → waiting
+  She didn't mind waiting yesterday.                             → waiting
+  We didn't mind waiting yesterday.                              → waiting
+  She didn't mind waiting last weekend.                          → waiting
+  We didn't mind waiting last weekend.                           → waiting
+  She didn't mind waiting last night.                            → waiting
+  We didn't mind waiting last night.                             → waiting
+  She didn't mind waiting on Saturday.                           → waiting
+  We didn't mind waiting on Saturday.                            → waiting
+
+■ stop
+  She stopped studying last week.                                → studying
+  We stopped studying last week.                                 → studying
+  She stopped studying last year.                                → studying
+  We stopped studying last year.                                 → studying
+  She stopped studying.                                          → studying
+  We stopped studying.                                           → studying
+  She has just stopped studying.                                 → studying
+  We have just stopped studying.                                 → studying
+
+■ go
+  She goes running in the park every weekend.                    → running
+  We go running in the park every weekend.                       → running
+  She goes running in the park at the weekend.                   → running
+  We go running in the park at the weekend.                      → running
+  She goes running in the park on Saturdays.                     → running
+  We go running in the park on Saturdays.                        → running
+  She goes running in the park after school.                     → running
+  We go running in the park after school.                        → running
+  She goes running in the park every day.                        → running
+  We go running in the park every day.                           → running
+  She went running in the park yesterday.                        → running
+  We went running in the park yesterday.                         → running
+  She went running in the park last weekend.                     → running
+  We went running in the park last weekend.                      → running
+  She went running in the park last night.                       → running
+  We went running in the park last night.                        → running
+  She went running in the park on Saturday.                      → running
+  We went running in the park on Saturday.                       → running
+  She is going running in the park tomorrow.                     → running
+  We are going running in the park tomorrow.                     → running
+  She is going running in the park this weekend.                 → running
+  We are going running in the park this weekend.                 → running
+  She is going running in the park next week.                    → running
+  We are going running in the park next week.                    → running
+  She is going running in the park on Saturday.                  → running
+  We are going running in the park on Saturday.                  → running
+  She has just gone running in the park.                         → running
+  We have just gone running in the park.                         → running
+
+■ be good at
+  She is good at swimming.                                       → swimming
+  We are good at swimming.                                       → swimming
+  She was good at swimming as a child.                           → swimming
+  We were good at swimming as a child.                           → swimming
+  She was good at swimming years ago.                            → swimming
+  We were good at swimming years ago.                            → swimming
+  She has always been good at swimming.                          → swimming
+  We have always been good at swimming.                          → swimming
+  She has never been good at swimming.                           → swimming
+  We have never been good at swimming.                           → swimming
+
+■ be interested in
+  She is interested in swimming.                                 → swimming
+  We are interested in swimming.                                 → swimming
+  She is interested in swimming at the moment.                   → swimming
+  We are interested in swimming at the moment.                   → swimming
+  She was interested in swimming as a child.                     → swimming
+  We were interested in swimming as a child.                     → swimming
+  She was interested in swimming years ago.                      → swimming
+  We were interested in swimming years ago.                      → swimming
+  She has always been interested in swimming.                    → swimming
+  We have always been interested in swimming.                    → swimming
+
+■ keep
+  She keeps studying.                                            → studying
+  We keep studying.                                              → studying
+  She kept studying.                                             → studying
+  We kept studying.                                              → studying
+  She kept studying all afternoon.                               → studying
+  We kept studying all afternoon.                                → studying
+  She kept studying last night.                                  → studying
+  We kept studying last night.                                   → studying
+
+■ start
+  She started to study yesterday.                                → to study / studying
+  We started to study yesterday.                                 → to study / studying
+  She started to study last weekend.                             → to study / studying
+  We started to study last weekend.                              → to study / studying
+  She started to study last night.                               → to study / studying
+  We started to study last night.                                → to study / studying
+  She started to study on Saturday.                              → to study / studying
+  We started to study on Saturday.                               → to study / studying
+  She has just started to study.                                 → to study / studying
+  We have just started to study.                                 → to study / studying
+  She is starting to study at the moment.                        → to study
+  We are starting to study at the moment.                        → to study
+  She is starting to study right now.                            → to study
+  We are starting to study right now.                            → to study
+
+■ spend
+  She spends two hours sleeping every weekend.                   → sleeping
+  We spend two hours sleeping every weekend.                     → sleeping
+  She spends two hours sleeping at the weekend.                  → sleeping
+  We spend two hours sleeping at the weekend.                    → sleeping
+  She spends two hours sleeping on Saturdays.                    → sleeping
+  We spend two hours sleeping on Saturdays.                      → sleeping
+  She spends two hours sleeping after school.                    → sleeping
+  We spend two hours sleeping after school.                      → sleeping
+  She spends two hours sleeping every day.                       → sleeping
+  We spend two hours sleeping every day.                         → sleeping
+  She spent two hours sleeping yesterday.                        → sleeping
+  We spent two hours sleeping yesterday.                         → sleeping
+  She spent two hours sleeping last weekend.                     → sleeping
+  We spent two hours sleeping last weekend.                      → sleeping
+  She spent two hours sleeping last night.                       → sleeping
+  We spent two hours sleeping last night.                        → sleeping
+  She spent two hours sleeping on Saturday.                      → sleeping
+  We spent two hours sleeping on Saturday.                       → sleeping
+  She is spending two hours sleeping today.                      → sleeping
+  We are spending two hours sleeping today.                      → sleeping
+  She is spending two hours sleeping this afternoon.             → sleeping
+  We are spending two hours sleeping this afternoon.             → sleeping
+  She has spent two hours sleeping today.                        → sleeping
+  We have spent two hours sleeping today.                        → sleeping
+  She has just spent two hours sleeping.                         → sleeping
+  We have just spent two hours sleeping.                         → sleeping
+
+■ remember (-ing)
+  She remembers running in the park as a child.                  → running
+  We remember running in the park as a child.                    → running
+  She remembers running in the park last summer.                 → running
+  We remember running in the park last summer.                   → running
+  She remembers running in the park on holiday.                  → running
+  We remember running in the park on holiday.                    → running
+  She remembers running in the park years ago.                   → running
+  We remember running in the park years ago.                     → running
+
+■ forget (-ing)
+  She will never forget running in the park as a child.          → running
+  We will never forget running in the park as a child.           → running
+  She will never forget running in the park last summer.         → running
+  We will never forget running in the park last summer.          → running
+  She will never forget running in the park on holiday.          → running
+  We will never forget running in the park on holiday.           → running
+  She will never forget running in the park years ago.           → running
+  We will never forget running in the park years ago.            → running
+
+
+PART B — every activity each verb accepts
+
+■ decide
+  She decided to sleep yesterday.                                → to sleep
+  She decided to walk home yesterday.                            → to walk
+  She decided to study yesterday.                                → to study
+  She decided to run in the park yesterday.                      → to run
+  She decided to swim yesterday.                                 → to swim
+  She decided to shop yesterday.                                 → to shop
+  She decided to dance yesterday.                                → to dance
+  She decided to fish yesterday.                                 → to fish
+  She decided to cycle yesterday.                                → to cycle
+  She decided to swim in the sea yesterday.                      → to swim
+  She decided to eat pizza yesterday.                            → to eat
+  She decided to eat ice cream yesterday.                        → to eat
+  She decided to eat an apple yesterday.                         → to eat
+  She decided to eat a sandwich yesterday.                       → to eat
+  She decided to eat soup yesterday.                             → to eat
+  She decided to eat pasta yesterday.                            → to eat
+  She decided to eat fruit yesterday.                            → to eat
+  She decided to eat vegetables yesterday.                       → to eat
+  She decided to eat lunch yesterday.                            → to eat
+  She decided to eat breakfast yesterday.                        → to eat
+  She decided to eat dinner yesterday.                           → to eat
+  She decided to buy a new shirt yesterday.                      → to buy
+  She decided to buy a gift yesterday.                           → to buy
+  She decided to buy a bike yesterday.                           → to buy
+  She decided to buy some food yesterday.                        → to buy
+  She decided to clean the kitchen yesterday.                    → to clean
+  She decided to clean the bedroom yesterday.                    → to clean
+  She decided to clean the house yesterday.                      → to clean
+  She decided to watch a movie yesterday.                        → to watch
+  She decided to watch TV yesterday.                             → to watch
+  She decided to watch a football match yesterday.               → to watch
+  She decided to cook dinner yesterday.                          → to cook
+  She decided to cook pasta yesterday.                           → to cook
+  She decided to cook a meal yesterday.                          → to cook
+  She decided to cook soup yesterday.                            → to cook
+  She decided to play the guitar yesterday.                      → to play
+  She decided to play video games yesterday.                     → to play
+  She decided to play tennis yesterday.                          → to play
+
+■ forget
+  She always forgets to wait at the weekend.                     → to wait
+  She always forgets to study at the weekend.                    → to study
+  She always forgets to buy a gift at the weekend.               → to buy
+  She always forgets to buy some food at the weekend.            → to buy
+  She always forgets to clean the kitchen at the weekend.        → to clean
+  She always forgets to clean the bedroom at the weekend.        → to clean
+  She always forgets to clean the house at the weekend.          → to clean
+  She always forgets to cook dinner at the weekend.              → to cook
+  She always forgets to cook pasta at the weekend.               → to cook
+  She always forgets to cook a meal at the weekend.              → to cook
+  She always forgets to cook soup at the weekend.                → to cook
+
+■ hope
+  She hopes to sleep tomorrow.                                   → to sleep
+  She hopes to walk home tomorrow.                               → to walk
+  She hopes to study tomorrow.                                   → to study
+  She hopes to run in the park tomorrow.                         → to run
+  She hopes to swim tomorrow.                                    → to swim
+  She hopes to shop tomorrow.                                    → to shop
+  She hopes to dance tomorrow.                                   → to dance
+  She hopes to fish tomorrow.                                    → to fish
+  She hopes to cycle tomorrow.                                   → to cycle
+  She hopes to swim in the sea tomorrow.                         → to swim
+  She hopes to eat pizza tomorrow.                               → to eat
+  She hopes to eat ice cream tomorrow.                           → to eat
+  She hopes to eat an apple tomorrow.                            → to eat
+  She hopes to eat a sandwich tomorrow.                          → to eat
+  She hopes to eat soup tomorrow.                                → to eat
+  She hopes to eat pasta tomorrow.                               → to eat
+  She hopes to eat fruit tomorrow.                               → to eat
+  She hopes to eat vegetables tomorrow.                          → to eat
+  She hopes to eat lunch tomorrow.                               → to eat
+  She hopes to eat breakfast tomorrow.                           → to eat
+  She hopes to eat dinner tomorrow.                              → to eat
+  She hopes to buy a new shirt tomorrow.                         → to buy
+  She hopes to buy a gift tomorrow.                              → to buy
+  She hopes to buy a bike tomorrow.                              → to buy
+  She hopes to buy some food tomorrow.                           → to buy
+  She hopes to clean the kitchen tomorrow.                       → to clean
+  She hopes to clean the bedroom tomorrow.                       → to clean
+  She hopes to clean the house tomorrow.                         → to clean
+  She hopes to watch a movie tomorrow.                           → to watch
+  She hopes to watch TV tomorrow.                                → to watch
+  She hopes to watch a football match tomorrow.                  → to watch
+  She hopes to cook dinner tomorrow.                             → to cook
+  She hopes to cook pasta tomorrow.                              → to cook
+  She hopes to cook a meal tomorrow.                             → to cook
+  She hopes to cook soup tomorrow.                               → to cook
+  She hopes to play the guitar tomorrow.                         → to play
+  She hopes to play video games tomorrow.                        → to play
+  She hopes to play tennis tomorrow.                             → to play
+
+■ learn
+  She learned to swim last year.                                 → to swim
+  She learned to dance last year.                                → to dance
+  She learned to cycle last year.                                → to cycle
+  She learned to cook pasta last year.                           → to cook
+  She learned to cook a meal last year.                          → to cook
+  She learned to play the guitar last year.                      → to play
+  She learned to play tennis last year.                          → to play
+
+■ need
+  She needs to sleep every weekend.                              → to sleep
+  She needs to walk home every weekend.                          → to walk
+  She needs to study every weekend.                              → to study
+  She needs to run in the park every weekend.                    → to run
+  She needs to swim every weekend.                               → to swim
+  She needs to shop every weekend.                               → to shop
+  She needs to dance every weekend.                              → to dance
+  She needs to fish every weekend.                               → to fish
+  She needs to cycle every weekend.                              → to cycle
+  She needs to swim in the sea every weekend.                    → to swim
+  She needs to eat pizza every weekend.                          → to eat
+  She needs to eat ice cream every weekend.                      → to eat
+  She needs to eat an apple every weekend.                       → to eat
+  She needs to eat a sandwich every weekend.                     → to eat
+  She needs to eat soup every weekend.                           → to eat
+  She needs to eat pasta every weekend.                          → to eat
+  She needs to eat fruit every weekend.                          → to eat
+  She needs to eat vegetables every weekend.                     → to eat
+  She needs to eat lunch every weekend.                          → to eat
+  She needs to eat breakfast every weekend.                      → to eat
+  She needs to eat dinner every weekend.                         → to eat
+  She needs to buy a gift every weekend.                         → to buy
+  She needs to buy some food every weekend.                      → to buy
+  She needs to clean the kitchen every weekend.                  → to clean
+  She needs to clean the bedroom every weekend.                  → to clean
+  She needs to clean the house every weekend.                    → to clean
+  She needs to watch a movie every weekend.                      → to watch
+  She needs to watch TV every weekend.                           → to watch
+  She needs to watch a football match every weekend.             → to watch
+  She needs to cook dinner every weekend.                        → to cook
+  She needs to cook pasta every weekend.                         → to cook
+  She needs to cook a meal every weekend.                        → to cook
+  She needs to cook soup every weekend.                          → to cook
+  She needs to play the guitar every weekend.                    → to play
+  She needs to play video games every weekend.                   → to play
+  She needs to play tennis every weekend.                        → to play
+
+■ plan
+  She plans to sleep tomorrow.                                   → to sleep
+  She plans to walk home tomorrow.                               → to walk
+  She plans to study tomorrow.                                   → to study
+  She plans to run in the park tomorrow.                         → to run
+  She plans to swim tomorrow.                                    → to swim
+  She plans to shop tomorrow.                                    → to shop
+  She plans to dance tomorrow.                                   → to dance
+  She plans to fish tomorrow.                                    → to fish
+  She plans to cycle tomorrow.                                   → to cycle
+  She plans to swim in the sea tomorrow.                         → to swim
+  She plans to eat pizza tomorrow.                               → to eat
+  She plans to eat ice cream tomorrow.                           → to eat
+  She plans to eat an apple tomorrow.                            → to eat
+  She plans to eat a sandwich tomorrow.                          → to eat
+  She plans to eat soup tomorrow.                                → to eat
+  She plans to eat pasta tomorrow.                               → to eat
+  She plans to eat fruit tomorrow.                               → to eat
+  She plans to eat vegetables tomorrow.                          → to eat
+  She plans to eat lunch tomorrow.                               → to eat
+  She plans to eat breakfast tomorrow.                           → to eat
+  She plans to eat dinner tomorrow.                              → to eat
+  She plans to buy a new shirt tomorrow.                         → to buy
+  She plans to buy a gift tomorrow.                              → to buy
+  She plans to buy a bike tomorrow.                              → to buy
+  She plans to buy some food tomorrow.                           → to buy
+  She plans to clean the kitchen tomorrow.                       → to clean
+  She plans to clean the bedroom tomorrow.                       → to clean
+  She plans to clean the house tomorrow.                         → to clean
+  She plans to watch a movie tomorrow.                           → to watch
+  She plans to watch TV tomorrow.                                → to watch
+  She plans to watch a football match tomorrow.                  → to watch
+  She plans to cook dinner tomorrow.                             → to cook
+  She plans to cook pasta tomorrow.                              → to cook
+  She plans to cook a meal tomorrow.                             → to cook
+  She plans to cook soup tomorrow.                               → to cook
+  She plans to play the guitar tomorrow.                         → to play
+  She plans to play video games tomorrow.                        → to play
+  She plans to play tennis tomorrow.                             → to play
+
+■ pretend
+  She pretended to sleep yesterday.                              → to sleep
+  She pretended to study yesterday.                              → to study
+  She pretended to eat pizza yesterday.                          → to eat
+  She pretended to eat ice cream yesterday.                      → to eat
+  She pretended to eat an apple yesterday.                       → to eat
+  She pretended to eat a sandwich yesterday.                     → to eat
+  She pretended to eat soup yesterday.                           → to eat
+  She pretended to eat pasta yesterday.                          → to eat
+  She pretended to eat fruit yesterday.                          → to eat
+  She pretended to eat vegetables yesterday.                     → to eat
+  She pretended to eat lunch yesterday.                          → to eat
+  She pretended to eat breakfast yesterday.                      → to eat
+  She pretended to eat dinner yesterday.                         → to eat
+  She pretended to watch TV yesterday.                           → to watch
+
+■ remember (to)
+  She always remembers to wait at the weekend.                   → to wait
+  She always remembers to study at the weekend.                  → to study
+  She always remembers to buy a gift at the weekend.             → to buy
+  She always remembers to buy some food at the weekend.          → to buy
+  She always remembers to clean the kitchen at the weekend.      → to clean
+  She always remembers to clean the bedroom at the weekend.      → to clean
+  She always remembers to clean the house at the weekend.        → to clean
+  She always remembers to cook dinner at the weekend.            → to cook
+  She always remembers to cook pasta at the weekend.             → to cook
+  She always remembers to cook a meal at the weekend.            → to cook
+  She always remembers to cook soup at the weekend.              → to cook
+
+■ would like
+  She would like to sleep tomorrow.                              → to sleep
+  She would like to walk home tomorrow.                          → to walk
+  She would like to study tomorrow.                              → to study
+  She would like to run in the park tomorrow.                    → to run
+  She would like to swim tomorrow.                               → to swim
+  She would like to shop tomorrow.                               → to shop
+  She would like to dance tomorrow.                              → to dance
+  She would like to fish tomorrow.                               → to fish
+  She would like to cycle tomorrow.                              → to cycle
+  She would like to swim in the sea tomorrow.                    → to swim
+  She would like to eat pizza tomorrow.                          → to eat
+  She would like to eat ice cream tomorrow.                      → to eat
+  She would like to eat an apple tomorrow.                       → to eat
+  She would like to eat a sandwich tomorrow.                     → to eat
+  She would like to eat soup tomorrow.                           → to eat
+  She would like to eat pasta tomorrow.                          → to eat
+  She would like to eat fruit tomorrow.                          → to eat
+  She would like to eat vegetables tomorrow.                     → to eat
+  She would like to eat lunch tomorrow.                          → to eat
+  She would like to eat breakfast tomorrow.                      → to eat
+  She would like to eat dinner tomorrow.                         → to eat
+  She would like to buy a new shirt tomorrow.                    → to buy
+  She would like to buy a gift tomorrow.                         → to buy
+  She would like to buy a bike tomorrow.                         → to buy
+  She would like to buy some food tomorrow.                      → to buy
+  She would like to clean the kitchen tomorrow.                  → to clean
+  She would like to clean the bedroom tomorrow.                  → to clean
+  She would like to clean the house tomorrow.                    → to clean
+  She would like to watch a movie tomorrow.                      → to watch
+  She would like to watch TV tomorrow.                           → to watch
+  She would like to watch a football match tomorrow.             → to watch
+  She would like to cook dinner tomorrow.                        → to cook
+  She would like to cook pasta tomorrow.                         → to cook
+  She would like to cook a meal tomorrow.                        → to cook
+  She would like to cook soup tomorrow.                          → to cook
+  She would like to play the guitar tomorrow.                    → to play
+  She would like to play video games tomorrow.                   → to play
+  She would like to play tennis tomorrow.                        → to play
+
+■ promise
+  She promised to wait yesterday.                                → to wait
+  She promised to study yesterday.                               → to study
+  She promised to buy a gift yesterday.                          → to buy
+  She promised to buy some food yesterday.                       → to buy
+  She promised to clean the kitchen yesterday.                   → to clean
+  She promised to clean the bedroom yesterday.                   → to clean
+  She promised to clean the house yesterday.                     → to clean
+  She promised to cook dinner yesterday.                         → to cook
+  She promised to cook pasta yesterday.                          → to cook
+  She promised to cook a meal yesterday.                         → to cook
+  She promised to cook soup yesterday.                           → to cook
+
+■ offer
+  She offered to wait yesterday.                                 → to wait
+  She offered to buy a gift yesterday.                           → to buy
+  She offered to buy some food yesterday.                        → to buy
+  She offered to clean the kitchen yesterday.                    → to clean
+  She offered to clean the bedroom yesterday.                    → to clean
+  She offered to clean the house yesterday.                      → to clean
+  She offered to cook dinner yesterday.                          → to cook
+  She offered to cook pasta yesterday.                           → to cook
+  She offered to cook a meal yesterday.                          → to cook
+  She offered to cook soup yesterday.                            → to cook
+
+■ want
+  She wants to sleep tomorrow.                                   → to sleep
+  She wants to walk home tomorrow.                               → to walk
+  She wants to study tomorrow.                                   → to study
+  She wants to run in the park tomorrow.                         → to run
+  She wants to swim tomorrow.                                    → to swim
+  She wants to shop tomorrow.                                    → to shop
+  She wants to dance tomorrow.                                   → to dance
+  She wants to fish tomorrow.                                    → to fish
+  She wants to cycle tomorrow.                                   → to cycle
+  She wants to swim in the sea tomorrow.                         → to swim
+  She wants to eat pizza tomorrow.                               → to eat
+  She wants to eat ice cream tomorrow.                           → to eat
+  She wants to eat an apple tomorrow.                            → to eat
+  She wants to eat a sandwich tomorrow.                          → to eat
+  She wants to eat soup tomorrow.                                → to eat
+  She wants to eat pasta tomorrow.                               → to eat
+  She wants to eat fruit tomorrow.                               → to eat
+  She wants to eat vegetables tomorrow.                          → to eat
+  She wants to eat lunch tomorrow.                               → to eat
+  She wants to eat breakfast tomorrow.                           → to eat
+  She wants to eat dinner tomorrow.                              → to eat
+  She wants to buy a new shirt tomorrow.                         → to buy
+  She wants to buy a gift tomorrow.                              → to buy
+  She wants to buy a bike tomorrow.                              → to buy
+  She wants to buy some food tomorrow.                           → to buy
+  She wants to clean the kitchen tomorrow.                       → to clean
+  She wants to clean the bedroom tomorrow.                       → to clean
+  She wants to clean the house tomorrow.                         → to clean
+  She wants to watch a movie tomorrow.                           → to watch
+  She wants to watch TV tomorrow.                                → to watch
+  She wants to watch a football match tomorrow.                  → to watch
+  She wants to cook dinner tomorrow.                             → to cook
+  She wants to cook pasta tomorrow.                              → to cook
+  She wants to cook a meal tomorrow.                             → to cook
+  She wants to cook soup tomorrow.                               → to cook
+  She wants to play the guitar tomorrow.                         → to play
+  She wants to play video games tomorrow.                        → to play
+  She wants to play tennis tomorrow.                             → to play
+
+■ enjoy
+  She enjoys sleeping at the weekend.                            → sleeping
+  She enjoys walking home at the weekend.                        → walking
+  She enjoys studying at the weekend.                            → studying
+  She enjoys running in the park at the weekend.                 → running
+  She enjoys swimming at the weekend.                            → swimming
+  She enjoys shopping at the weekend.                            → shopping
+  She enjoys dancing at the weekend.                             → dancing
+  She enjoys fishing at the weekend.                             → fishing
+  She enjoys cycling at the weekend.                             → cycling
+  She enjoys swimming in the sea at the weekend.                 → swimming
+  She enjoys eating pizza at the weekend.                        → eating
+  She enjoys eating ice cream at the weekend.                    → eating
+  She enjoys eating an apple at the weekend.                     → eating
+  She enjoys eating a sandwich at the weekend.                   → eating
+  She enjoys eating soup at the weekend.                         → eating
+  She enjoys eating pasta at the weekend.                        → eating
+  She enjoys eating fruit at the weekend.                        → eating
+  She enjoys eating vegetables at the weekend.                   → eating
+  She enjoys eating lunch at the weekend.                        → eating
+  She enjoys eating breakfast at the weekend.                    → eating
+  She enjoys eating dinner at the weekend.                       → eating
+  She enjoys buying a gift at the weekend.                       → buying
+  She enjoys buying some food at the weekend.                    → buying
+  She enjoys cleaning the kitchen at the weekend.                → cleaning
+  She enjoys cleaning the bedroom at the weekend.                → cleaning
+  She enjoys cleaning the house at the weekend.                  → cleaning
+  She enjoys watching a movie at the weekend.                    → watching
+  She enjoys watching TV at the weekend.                         → watching
+  She enjoys watching a football match at the weekend.           → watching
+  She enjoys cooking dinner at the weekend.                      → cooking
+  She enjoys cooking pasta at the weekend.                       → cooking
+  She enjoys cooking a meal at the weekend.                      → cooking
+  She enjoys cooking soup at the weekend.                        → cooking
+  She enjoys playing the guitar at the weekend.                  → playing
+  She enjoys playing video games at the weekend.                 → playing
+  She enjoys playing tennis at the weekend.                      → playing
+
+■ feel like
+  She feels like sleeping at the moment.                         → sleeping
+  She feels like walking home at the moment.                     → walking
+  She feels like running in the park at the moment.              → running
+  She feels like swimming at the moment.                         → swimming
+  She feels like shopping at the moment.                         → shopping
+  She feels like dancing at the moment.                          → dancing
+  She feels like fishing at the moment.                          → fishing
+  She feels like cycling at the moment.                          → cycling
+  She feels like swimming in the sea at the moment.              → swimming
+  She feels like eating pizza at the moment.                     → eating
+  She feels like eating ice cream at the moment.                 → eating
+  She feels like eating an apple at the moment.                  → eating
+  She feels like eating a sandwich at the moment.                → eating
+  She feels like eating soup at the moment.                      → eating
+  She feels like eating pasta at the moment.                     → eating
+  She feels like eating fruit at the moment.                     → eating
+  She feels like eating vegetables at the moment.                → eating
+  She feels like eating lunch at the moment.                     → eating
+  She feels like eating breakfast at the moment.                 → eating
+  She feels like eating dinner at the moment.                    → eating
+  She feels like buying a new shirt at the moment.               → buying
+  She feels like buying a gift at the moment.                    → buying
+  She feels like buying a bike at the moment.                    → buying
+  She feels like watching a movie at the moment.                 → watching
+  She feels like watching TV at the moment.                      → watching
+  She feels like watching a football match at the moment.        → watching
+  She feels like playing the guitar at the moment.               → playing
+  She feels like playing video games at the moment.              → playing
+  She feels like playing tennis at the moment.                   → playing
+
+■ finish
+  She finished studying yesterday.                               → studying
+  She finished eating an apple yesterday.                        → eating
+  She finished eating a sandwich yesterday.                      → eating
+  She finished eating soup yesterday.                            → eating
+  She finished eating lunch yesterday.                           → eating
+  She finished eating breakfast yesterday.                       → eating
+  She finished eating dinner yesterday.                          → eating
+  She finished cleaning the kitchen yesterday.                   → cleaning
+  She finished cleaning the bedroom yesterday.                   → cleaning
+  She finished cleaning the house yesterday.                     → cleaning
+  She finished watching a movie yesterday.                       → watching
+  She finished watching a football match yesterday.              → watching
+  She finished cooking dinner yesterday.                         → cooking
+  She finished cooking pasta yesterday.                          → cooking
+  She finished cooking a meal yesterday.                         → cooking
+  She finished cooking soup yesterday.                           → cooking
+
+■ go on
+  She went on sleeping.                                          → sleeping
+  She went on waiting.                                           → waiting
+  She went on studying.                                          → studying
+  She went on running in the park.                               → running
+  She went on swimming.                                          → swimming
+  She went on dancing.                                           → dancing
+  She went on cycling.                                           → cycling
+  She went on eating pizza.                                      → eating
+  She went on eating ice cream.                                  → eating
+  She went on eating an apple.                                   → eating
+  She went on eating a sandwich.                                 → eating
+  She went on eating soup.                                       → eating
+  She went on eating pasta.                                      → eating
+  She went on eating fruit.                                      → eating
+  She went on eating vegetables.                                 → eating
+  She went on eating lunch.                                      → eating
+  She went on eating breakfast.                                  → eating
+  She went on eating dinner.                                     → eating
+  She went on cleaning the kitchen.                              → cleaning
+  She went on cleaning the bedroom.                              → cleaning
+  She went on cleaning the house.                                → cleaning
+  She went on watching a movie.                                  → watching
+  She went on watching TV.                                       → watching
+  She went on watching a football match.                         → watching
+  She went on cooking dinner.                                    → cooking
+  She went on playing the guitar.                                → playing
+  She went on playing video games.                               → playing
+  She went on playing tennis.                                    → playing
+
+■ hate
+  She hates sleeping at the weekend.                             → sleeping
+  She hates walking home at the weekend.                         → walking
+  She hates studying at the weekend.                             → studying
+  She hates running in the park at the weekend.                  → running
+  She hates swimming at the weekend.                             → swimming
+  She hates shopping at the weekend.                             → shopping
+  She hates dancing at the weekend.                              → dancing
+  She hates fishing at the weekend.                              → fishing
+  She hates cycling at the weekend.                              → cycling
+  She hates swimming in the sea at the weekend.                  → swimming
+  She hates eating pizza at the weekend.                         → eating
+  She hates eating ice cream at the weekend.                     → eating
+  She hates eating an apple at the weekend.                      → eating
+  She hates eating a sandwich at the weekend.                    → eating
+  She hates eating soup at the weekend.                          → eating
+  She hates eating pasta at the weekend.                         → eating
+  She hates eating fruit at the weekend.                         → eating
+  She hates eating vegetables at the weekend.                    → eating
+  She hates eating lunch at the weekend.                         → eating
+  She hates eating breakfast at the weekend.                     → eating
+  She hates eating dinner at the weekend.                        → eating
+  She hates buying a gift at the weekend.                        → buying
+  She hates buying some food at the weekend.                     → buying
+  She hates cleaning the kitchen at the weekend.                 → cleaning
+  She hates cleaning the bedroom at the weekend.                 → cleaning
+  She hates cleaning the house at the weekend.                   → cleaning
+  She hates watching a movie at the weekend.                     → watching
+  She hates watching TV at the weekend.                          → watching
+  She hates watching a football match at the weekend.            → watching
+  She hates cooking dinner at the weekend.                       → cooking
+  She hates cooking pasta at the weekend.                        → cooking
+  She hates cooking a meal at the weekend.                       → cooking
+  She hates cooking soup at the weekend.                         → cooking
+  She hates playing the guitar at the weekend.                   → playing
+  She hates playing video games at the weekend.                  → playing
+  She hates playing tennis at the weekend.                       → playing
+
+■ like
+  She likes sleeping at the weekend.                             → sleeping
+  She likes walking home at the weekend.                         → walking
+  She likes studying at the weekend.                             → studying
+  She likes running in the park at the weekend.                  → running
+  She likes swimming at the weekend.                             → swimming
+  She likes shopping at the weekend.                             → shopping
+  She likes dancing at the weekend.                              → dancing
+  She likes fishing at the weekend.                              → fishing
+  She likes cycling at the weekend.                              → cycling
+  She likes swimming in the sea at the weekend.                  → swimming
+  She likes eating pizza at the weekend.                         → eating
+  She likes eating ice cream at the weekend.                     → eating
+  She likes eating an apple at the weekend.                      → eating
+  She likes eating a sandwich at the weekend.                    → eating
+  She likes eating soup at the weekend.                          → eating
+  She likes eating pasta at the weekend.                         → eating
+  She likes eating fruit at the weekend.                         → eating
+  She likes eating vegetables at the weekend.                    → eating
+  She likes eating lunch at the weekend.                         → eating
+  She likes eating breakfast at the weekend.                     → eating
+  She likes eating dinner at the weekend.                        → eating
+  She likes buying a gift at the weekend.                        → buying
+  She likes buying some food at the weekend.                     → buying
+  She likes cleaning the kitchen at the weekend.                 → cleaning
+  She likes cleaning the bedroom at the weekend.                 → cleaning
+  She likes cleaning the house at the weekend.                   → cleaning
+  She likes watching a movie at the weekend.                     → watching
+  She likes watching TV at the weekend.                          → watching
+  She likes watching a football match at the weekend.            → watching
+  She likes cooking dinner at the weekend.                       → cooking
+  She likes cooking pasta at the weekend.                        → cooking
+  She likes cooking a meal at the weekend.                       → cooking
+  She likes cooking soup at the weekend.                         → cooking
+  She likes playing the guitar at the weekend.                   → playing
+  She likes playing video games at the weekend.                  → playing
+  She likes playing tennis at the weekend.                       → playing
+
+■ love
+  She loves sleeping at the weekend.                             → sleeping
+  She loves walking home at the weekend.                         → walking
+  She loves studying at the weekend.                             → studying
+  She loves running in the park at the weekend.                  → running
+  She loves swimming at the weekend.                             → swimming
+  She loves shopping at the weekend.                             → shopping
+  She loves dancing at the weekend.                              → dancing
+  She loves fishing at the weekend.                              → fishing
+  She loves cycling at the weekend.                              → cycling
+  She loves swimming in the sea at the weekend.                  → swimming
+  She loves eating pizza at the weekend.                         → eating
+  She loves eating ice cream at the weekend.                     → eating
+  She loves eating an apple at the weekend.                      → eating
+  She loves eating a sandwich at the weekend.                    → eating
+  She loves eating soup at the weekend.                          → eating
+  She loves eating pasta at the weekend.                         → eating
+  She loves eating fruit at the weekend.                         → eating
+  She loves eating vegetables at the weekend.                    → eating
+  She loves eating lunch at the weekend.                         → eating
+  She loves eating breakfast at the weekend.                     → eating
+  She loves eating dinner at the weekend.                        → eating
+  She loves buying a gift at the weekend.                        → buying
+  She loves buying some food at the weekend.                     → buying
+  She loves cleaning the kitchen at the weekend.                 → cleaning
+  She loves cleaning the bedroom at the weekend.                 → cleaning
+  She loves cleaning the house at the weekend.                   → cleaning
+  She loves watching a movie at the weekend.                     → watching
+  She loves watching TV at the weekend.                          → watching
+  She loves watching a football match at the weekend.            → watching
+  She loves cooking dinner at the weekend.                       → cooking
+  She loves cooking pasta at the weekend.                        → cooking
+  She loves cooking a meal at the weekend.                       → cooking
+  She loves cooking soup at the weekend.                         → cooking
+  She loves playing the guitar at the weekend.                   → playing
+  She loves playing video games at the weekend.                  → playing
+  She loves playing tennis at the weekend.                       → playing
+
+■ don't mind
+  She doesn't mind waiting at the weekend.                       → waiting
+  She doesn't mind studying at the weekend.                      → studying
+  She doesn't mind buying a gift at the weekend.                 → buying
+  She doesn't mind buying some food at the weekend.              → buying
+  She doesn't mind cleaning the kitchen at the weekend.          → cleaning
+  She doesn't mind cleaning the bedroom at the weekend.          → cleaning
+  She doesn't mind cleaning the house at the weekend.            → cleaning
+  She doesn't mind cooking dinner at the weekend.                → cooking
+  She doesn't mind cooking pasta at the weekend.                 → cooking
+  She doesn't mind cooking a meal at the weekend.                → cooking
+  She doesn't mind cooking soup at the weekend.                  → cooking
+
+■ stop
+  She stopped studying last week.                                → studying
+  She stopped running in the park last week.                     → running
+  She stopped swimming last week.                                → swimming
+  She stopped eating pizza last week.                            → eating
+  She stopped eating ice cream last week.                        → eating
+  She stopped eating an apple last week.                         → eating
+  She stopped eating a sandwich last week.                       → eating
+  She stopped eating soup last week.                             → eating
+  She stopped eating pasta last week.                            → eating
+  She stopped eating fruit last week.                            → eating
+  She stopped eating vegetables last week.                       → eating
+  She stopped eating lunch last week.                            → eating
+  She stopped eating breakfast last week.                        → eating
+  She stopped eating dinner last week.                           → eating
+  She stopped watching TV last week.                             → watching
+  She stopped playing video games last week.                     → playing
+
+■ go
+  She goes running in the park every weekend.                    → running
+  She goes swimming every weekend.                               → swimming
+  She goes shopping every weekend.                               → shopping
+  She goes dancing every weekend.                                → dancing
+  She goes fishing every weekend.                                → fishing
+  She goes cycling every weekend.                                → cycling
+
+■ be good at
+  She is good at swimming.                                       → swimming
+  She is good at dancing.                                        → dancing
+  She is good at cycling.                                        → cycling
+  She is good at cooking pasta.                                  → cooking
+  She is good at cooking a meal.                                 → cooking
+  She is good at playing the guitar.                             → playing
+  She is good at playing tennis.                                 → playing
+
+■ be interested in
+  She is interested in swimming.                                 → swimming
+  She is interested in dancing.                                  → dancing
+  She is interested in fishing.                                  → fishing
+  She is interested in cycling.                                  → cycling
+  She is interested in buying a bike.                            → buying
+  She is interested in cooking pasta.                            → cooking
+  She is interested in playing the guitar.                       → playing
+  She is interested in playing tennis.                           → playing
+
+■ keep
+  She keeps studying.                                            → studying
+  She keeps running in the park.                                 → running
+  She keeps swimming.                                            → swimming
+  She keeps eating pizza.                                        → eating
+  She keeps eating ice cream.                                    → eating
+  She keeps eating an apple.                                     → eating
+  She keeps eating a sandwich.                                   → eating
+  She keeps eating soup.                                         → eating
+  She keeps eating pasta.                                        → eating
+  She keeps eating fruit.                                        → eating
+  She keeps eating vegetables.                                   → eating
+  She keeps eating lunch.                                        → eating
+  She keeps eating breakfast.                                    → eating
+  She keeps eating dinner.                                       → eating
+  She keeps watching TV.                                         → watching
+  She keeps playing video games.                                 → playing
+
+■ start
+  She started to study yesterday.                                → to study / studying
+  She started to eat pizza yesterday.                            → to eat / eating
+  She started to eat ice cream yesterday.                        → to eat / eating
+  She started to eat an apple yesterday.                         → to eat / eating
+  She started to eat a sandwich yesterday.                       → to eat / eating
+  She started to eat soup yesterday.                             → to eat / eating
+  She started to eat pasta yesterday.                            → to eat / eating
+  She started to eat fruit yesterday.                            → to eat / eating
+  She started to eat vegetables yesterday.                       → to eat / eating
+  She started to eat lunch yesterday.                            → to eat / eating
+  She started to eat breakfast yesterday.                        → to eat / eating
+  She started to eat dinner yesterday.                           → to eat / eating
+  She started to buy some food yesterday.                        → to buy / buying
+  She started to clean the kitchen yesterday.                    → to clean / cleaning
+  She started to clean the bedroom yesterday.                    → to clean / cleaning
+  She started to clean the house yesterday.                      → to clean / cleaning
+  She started to cook dinner yesterday.                          → to cook / cooking
+  She started to cook pasta yesterday.                           → to cook / cooking
+  She started to cook a meal yesterday.                          → to cook / cooking
+  She started to cook soup yesterday.                            → to cook / cooking
+
+■ spend
+  She spends two hours sleeping every weekend.                   → sleeping
+  She spends two hours waiting every weekend.                    → waiting
+  She spends two hours studying every weekend.                   → studying
+  She spends two hours running in the park every weekend.        → running
+  She spends two hours swimming every weekend.                   → swimming
+  She spends two hours dancing every weekend.                    → dancing
+  She spends two hours cycling every weekend.                    → cycling
+  She spends two hours eating pizza every weekend.               → eating
+  She spends two hours eating ice cream every weekend.           → eating
+  She spends two hours eating an apple every weekend.            → eating
+  She spends two hours eating a sandwich every weekend.          → eating
+  She spends two hours eating soup every weekend.                → eating
+  She spends two hours eating pasta every weekend.               → eating
+  She spends two hours eating fruit every weekend.               → eating
+  She spends two hours eating vegetables every weekend.          → eating
+  She spends two hours eating lunch every weekend.               → eating
+  She spends two hours eating breakfast every weekend.           → eating
+  She spends two hours eating dinner every weekend.              → eating
+  She spends two hours cleaning the kitchen every weekend.       → cleaning
+  She spends two hours cleaning the bedroom every weekend.       → cleaning
+  She spends two hours cleaning the house every weekend.         → cleaning
+  She spends two hours watching a movie every weekend.           → watching
+  She spends two hours watching TV every weekend.                → watching
+  She spends two hours watching a football match every weekend.  → watching
+  She spends two hours cooking dinner every weekend.             → cooking
+  She spends two hours playing the guitar every weekend.         → playing
+  She spends two hours playing video games every weekend.        → playing
+  She spends two hours playing tennis every weekend.             → playing
+
+■ remember (-ing)
+  She remembers running in the park as a child.                  → running
+  She remembers swimming in the sea as a child.                  → swimming
+  She remembers eating pizza as a child.                         → eating
+  She remembers eating ice cream as a child.                     → eating
+  She remembers buying a bike as a child.                        → buying
+  She remembers watching a football match as a child.            → watching
+  She remembers playing tennis as a child.                       → playing
+
+■ forget (-ing)
+  She will never forget running in the park as a child.          → running
+  She will never forget swimming in the sea as a child.          → swimming
+  She will never forget eating pizza as a child.                 → eating
+  She will never forget eating ice cream as a child.             → eating
+  She will never forget buying a bike as a child.                → buying
+  She will never forget watching a football match as a child.    → watching
+  She will never forget playing tennis as a child.               → playing
+

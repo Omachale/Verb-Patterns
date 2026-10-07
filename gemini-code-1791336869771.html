@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 16px;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  .card {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 680px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #1a73e8;
+  }
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  select, button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+  }
+  button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button:hover {
+    background-color: #1557b0;
+  }
+  .output-box {
+    background: #f1f3f4;
+    border-left: 4px solid #1a73e8;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  .sentence {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .gap-sentence {
+    font-size: 1rem;
+    color: #495057;
+    font-family: monospace;
+  }
+  .meta {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 8px;
+  }
+  .log-container {
+    max-height: 220px;
+    overflow-y: auto;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 10px;
+    background: #fafafa;
+    font-size: 0.85rem;
+  }
+  .log-entry {
+    padding: 4px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Pure Procedural Generator (No LLM Required)</h2>
+  
+  <div class="controls">
+    <select id="patternFilter">
+      <option value="all">All Verb Types</option>
+      <option value="inf">Infinitive Only</option>
+      <option value="ger">Gerund Only</option>
+      <option value="offer">Offer (Fixed: No IO)</option>
+      <option value="want">Want + Indirect Object</option>
+      <option value="spend">Spend + Time</option>
+    </select>
+    <button id="genBtn">Generate Random Sentence</button>
+  </div>
+
+  <div class="output-box">
+    <div class="sentence" id="fullSentence">Click 'Generate' to test.</div>
+    <div class="gap-sentence" id="gapSentence"></div>
+    <div class="meta" id="patternMeta"></div>
+  </div>
+
+  <h3>Generated Sample History</h3>
+  <div class="log-container" id="logHistory">
+    <div style="color:#888;">History will appear here as you generate...</div>
+  </div>
+</div>
+
+<script>
+const gameData = {
+  subjects: [
+    "I", "You", "He", "She", "We", "They", 
+    "My boyfriend", "My girlfriend", "My mother", "My father", 
+    "My sister", "My brother", "The teacher", "My friend", "Our doctor"
+  ],
+  indirectObjects: ["me", "him", "her", "us", "them"],
+  durations: ["an hour", "two hours", "all afternoon", "30 minutes", "a lot of time"],
+  timeAddons: ["on Monday", "on Saturday", "this weekend", "at the weekend"],
+  
+  intransitive: [
+    { inf: "to sleep", ger: "sleeping", base: "sleep" },
+    { inf: "to wait", ger: "waiting", base: "wait" },
+    { inf: "to walk home", ger: "walking home", base: "walk home" },
+    { inf: "to study", ger: "studying", base: "study" },
+    { inf: "to run in the park", ger: "running in the park", base: "run in the park" },
+    { inf: "to swim", ger: "swimming", base: "swim" }
+  ],
+  
+  transitive: [
+    { verbBase: "eat", infPrefix: "to eat", gerPrefix: "eating", objects: ["pizza", "an apple", "lunch", "breakfast", "dinner", "pasta", "vegetables", "a sandwich", "ice cream", "soup", "fruit"] },
+    { verbBase: "buy", infPrefix: "to buy", gerPrefix: "buying", objects: ["a new shirt", "a gift", "a bike", "some food"] },
+    { verbBase: "clean", infPrefix: "to clean", gerPrefix: "cleaning", objects: ["the kitchen", "the bedroom", "the house"] },
+    { verbBase: "watch", infPrefix: "to watch", gerPrefix: "watching", objects: ["a movie", "TV", "a football match"] },
+    { verbBase: "cook", infPrefix: "to cook", gerPrefix: "cooking", objects: ["dinner", "pasta", "a meal", "soup"] },
+    { verbBase: "play", infPrefix: "to play", gerPrefix: "playing", objects: ["the guitar", "video games", "tennis"] }
+  ]
+};
+
+const verbs = [
+  { name: "decide", type: "inf", allowIO: false },
+  { name: "forget", type: "inf", allowIO: false },
+  { name: "hope", type: "inf", allowIO: false },
+  { name: "learn", type: "inf", allowIO: false },
+  { name: "need", type: "inf", allowIO: false },
+  { name: "plan", type: "inf", allowIO: false },
+  { name: "pretend", type: "inf", allowIO: false },
+  { name: "remember", type: "inf", allowIO: false },
+  { name: "would like", type: "inf", allowIO: false },
+  { name: "promise", type: "inf", allowIO: false },
+  { name: "offer", type: "inf", allowIO: false }, // Updated: Banned IO
+  
+  { name: "want", type: "inf", allowIO: true },
+  
+  { name: "enjoy", type: "ger", allowIO: false },
+  { name: "feel like", type: "ger", allowIO: false },
+  { name: "finish", type: "ger", allowIO: false },
+  { name: "go on", type: "ger", allowIO: false },
+  { name: "hate", type: "ger", allowIO: false },
+  { name: "like", type: "ger", allowIO: false },
+  { name: "love", type: "ger", allowIO: false },
+  { name: "don't mind", type: "ger", allowIO: false },
+  { name: "stop", type: "ger", allowIO: false },
+  
+  { name: "start", type: "either", allowIO: false },
+  { name: "spend", type: "spend", allowIO: false }
+];
+
+function getRandomItem(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function getRandomActivity(preferredForm) {
+  const isTransitive = Math.random() > 0.4;
+  if (isTransitive) {
+    const t = getRandomItem(gameData.transitive);
+    const obj = getRandomItem(t.objects);
+    return {
+      text: preferredForm === "inf" ? `${t.infPrefix} ${obj}` : `${t.gerPrefix} ${obj}`,
+      baseVerb: t.verbBase
+    };
+  } else {
+    const item = getRandomItem(gameData.intransitive);
+    return {
+      text: preferredForm === "inf" ? item.inf : item.ger,
+      baseVerb: item.base
+    };
+  }
+}
+
+function conjugate(subj, verbName) {
+  const is3rdSingular = ["He", "She", "My boyfriend", "My girlfriend", "My mother", "My father", "My sister", "My brother", "The teacher", "My friend", "Our doctor"].includes(subj);
+  if (!is3rdSingular) return verbName;
+
+  if (verbName === "don't mind") return "doesn't mind";
+  if (verbName === "would like") return "would like";
+  if (verbName === "go on") return "goes on";
+  return verbName + "s";
+}
+
+function generateSentence(filterType = "all") {
+  let pool = verbs;
+  if (filterType === "inf") pool = verbs.filter(v => v.type === "inf");
+  else if (filterType === "ger") pool = verbs.filter(v => v.type === "ger");
+  else if (filterType === "offer") pool = verbs.filter(v => v.name === "offer");
+  else if (filterType === "want") pool = verbs.filter(v => v.name === "want");
+  else if (filterType === "spend") pool = verbs.filter(v => v.type === "spend");
+
+  const selectedVerb = getRandomItem(pool);
+  const subj = getRandomItem(gameData.subjects);
+  const verbForm = conjugate(subj, selectedVerb.name);
+  
+  let fullText = "";
+  let gapText = "";
+  let ruleText = "";
+
+  const attachTime = Math.random() > 0.6 ? ` ${getRandomItem(gameData.timeAddons)}` : "";
+
+  if (selectedVerb.type === "spend") {
+    const duration = getRandomItem(gameData.durations);
+    const act = getRandomActivity("ger");
+    fullText = `${subj} ${verbForm} ${duration} ${act.text}${attachTime}.`;
+    gapText = `${subj} ${verbForm} ${duration} _______ (${act.baseVerb})${attachTime}.`;
+    ruleText = "Pattern: spend + time + GERUND";
+  } 
+  else if (selectedVerb.allowIO && Math.random() > 0.4) {
+    const io = getRandomItem(gameData.indirectObjects);
+    const act = getRandomActivity("inf");
+    fullText = `${subj} ${verbForm} ${io} ${act.text}${attachTime}.`;
+    gapText = `${subj} ${verbForm} ${io} _______ (${act.baseVerb})${attachTime}.`;
+    ruleText = "Pattern: want + Indirect Object + INFINITIVE";
+  } 
+  else if (selectedVerb.type === "either") {
+    const useInf = Math.random() > 0.5;
+    const act = getRandomActivity(useInf ? "inf" : "ger");
+    fullText = `${subj} ${verbForm} ${act.text}${attachTime}.`;
+    gapText = `${subj} ${verbForm} _______ (${act.baseVerb})${attachTime}.`;
+    ruleText = "Pattern: start + INFINITIVE or GERUND";
+  } 
+  else if (selectedVerb.type === "inf") {
+    const act = getRandomActivity("inf");
+    fullText = `${subj} ${verbForm} ${act.text}${attachTime}.`;
+    gapText = `${subj} ${verbForm} _______ (${act.baseVerb})${attachTime}.`;
+    ruleText = "Pattern: Verb + INFINITIVE";
+  } 
+  else { // gerund
+    const act = getRandomActivity("ger");
+    fullText = `${subj} ${verbForm} ${act.text}${attachTime}.`;
+    gapText = `${subj} ${verbForm} _______ (${act.baseVerb})${attachTime}.`;
+    ruleText = "Pattern: Verb + GERUND";
+  }
+
+  return { fullText, gapText, ruleText };
+}
+
+// UI Handlers
+let history = [];
+const genBtn = document.getElementById("genBtn");
+const filterSelect = document.getElementById("patternFilter");
+const fullDiv = document.getElementById("fullSentence");
+const gapDiv = document.getElementById("gapSentence");
+const metaDiv = document.getElementById("patternMeta");
+const logContainer = document.getElementById("logHistory");
+
+function run() {
+  const filter = filterSelect.value;
+  const result = generateSentence(filter);
+  
+  fullDiv.textContent = result.fullText;
+  gapDiv.textContent = "Gap Fill: " + result.gapText;
+  metaDiv.textContent = result.ruleText;
+
+  history.unshift(result.fullText);
+  if (history.length > 15) history.pop();
+
+  logContainer.innerHTML = history.map(s => `<div class="log-entry">• ${s}</div>`).join('');
+}
+
+genBtn.addEventListener("click", run);
+run();
+</script>
+</body>
+</html>

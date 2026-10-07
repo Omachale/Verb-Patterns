@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Escape the Classroom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/style.css?v=2">
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="app">
+  <div id="stage">
+    <div id="debug">
+      <span class="dlabel">prototype</span>
+      <button data-dbg="right">✓</button>
+      <button data-dbg="wrong">✗</button>
+      <button data-dbg="pause">⏸</button>
+      <button data-dbg="reset">↺</button>
+    </div>
+    <button id="mute" aria-label="Toggle sound">🔊</button>
+    <div id="bubble"></div>
+    <div id="vignette"></div>
+    <div id="closeup"><img src="assets/teacher-closeup.svg" alt="The teacher, furious"><span>!!</span></div>
+    <div id="card" hidden>
+      <div class="card-title"></div>
+      <div class="card-sub"></div>
+      <button id="again">Play again</button>
+    </div>
+  </div>
+  <div id="hud">
+    <div id="track"></div>
+    <div id="timer"><div></div></div>
+    <div id="sentence"></div>
+  </div>
+  <div id="kb"></div>
+</div>
+<script type="module" src="src/main.js?v=2"></script>
+</body>
+</html>
