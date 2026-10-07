@@ -2,8 +2,8 @@ import * as THREE from "three";
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
-import { generateQuestion, checkAnswer } from "./verbs.js?v=5";
-import { Sfx } from "./sfx.js?v=5";
+import { generateQuestion, checkAnswer } from "./verbs.js?v=6";
+import { Sfx } from "./sfx.js?v=6";
 
 const V3 = THREE.Vector3;
 const sfx = new Sfx();
@@ -840,7 +840,16 @@ let playerSeat = 2;
 let state = "playing";            // playing | busy | won | lost
 let timerPaused = false;
 // 15 s from the starting seat, shrinking to 10 s at the last chair.
-const timeLimitFor = (seat) => (seat <= 2 ? 15 : 15 - ((seat - 2) * 5) / 7);
+// Hard: 15 s from the starting seat down to 10 s at the last chair. Easier levels add time,
+// and Easy also starts one seat further from the teacher.
+const DIFFICULTIES = {
+  easy: { label: "Easy", extraTime: 4, startSeat: 3 },
+  standard: { label: "Standard", extraTime: 2, startSeat: 2 },
+  hard: { label: "Hard", extraTime: 0, startSeat: 2 }
+};
+let difficulty = DIFFICULTIES.standard;
+try { difficulty = DIFFICULTIES[localStorage.getItem("difficulty")] || difficulty; } catch {}
+const timeLimitFor = (seat) => (seat <= 2 ? 15 : 15 - ((seat - 2) * 5) / 7) + difficulty.extraTime;
 let timeLimit = 15;
 let timeLeft = timeLimit;
 let lastTickSecond = 99;
@@ -859,7 +868,7 @@ function placeAt(ch, i) {
 function resetGame() {
   resetStats();
   tweens.length = 0;
-  playerSeat = 2;
+  playerSeat = difficulty.startSeat;
   const order = [...classmates].sort(() => Math.random() - 0.5);
   for (let i = 0; i < 10; i++) {
     seats[i] = i === playerSeat ? player : order.pop();
@@ -878,10 +887,15 @@ function resetGame() {
   closeup.classList.remove("show");
   bubble.style.display = "none";
   card.hidden = true;
-  state = "playing";
   writeProgress = 0;
-  newQuestion();
   updateTrack();
+  if (!picker.hidden) {
+    state = "choosing";
+    sentenceEl.textContent = "Choose your level and your student to begin.";
+    return;
+  }
+  state = "playing";
+  newQuestion();
 }
 
 async function swapSeats(a, b) {
@@ -1266,6 +1280,9 @@ fsBtn.addEventListener("click", () => {
 const picker = document.getElementById("picker");
 function showPicker() {
   state = "choosing";
+  card.hidden = true;
+  sentenceEl.textContent = "Choose your level and your student to begin.";
+  renderLevels();
   let saved = null;
   try { saved = localStorage.getItem("avatar"); } catch {}
   picker.querySelector(".choices").innerHTML = AVATARS.map((a) => `
@@ -1274,7 +1291,20 @@ function showPicker() {
     </button>`).join("");
   picker.hidden = false;
 }
+function renderLevels() {
+  picker.querySelector(".levels").innerHTML = Object.entries(DIFFICULTIES).map(([id, d]) =>
+    `<button class="level${d === difficulty ? " on" : ""}" data-level="${id}">${d.label}</button>`).join("");
+}
 picker.addEventListener("click", (e) => {
+  const lv = e.target.closest(".level");
+  if (lv) {
+    sfx.unlock();
+    sfx.key();
+    difficulty = DIFFICULTIES[lv.dataset.level];
+    try { localStorage.setItem("difficulty", lv.dataset.level); } catch {}
+    renderLevels();
+    return;
+  }
   const b = e.target.closest(".choice");
   if (!b) return;
   sfx.unlock();
@@ -1310,7 +1340,7 @@ function showSummary(won) {
   card.querySelector(".card-title").textContent = won ? "You Escaped from Luke!" : "Caught!";
   const total = stats.correct + stats.mistakes.length;
   card.querySelector(".card-stats").innerHTML =
-    `<span>⏱ ${formatTime(stats.end - stats.start)}</span><span>✓ ${stats.correct} / ${total}</span>`;
+    `<span>${difficulty.label}</span><span>⏱ ${formatTime(stats.end - stats.start)}</span><span>✓ ${stats.correct} / ${total}</span>`;
   const shown = stats.mistakes.slice(-MAX_MISTAKES_SHOWN);
   const more = stats.mistakes.length - shown.length;
   card.querySelector(".card-mistakes").innerHTML = stats.mistakes.length
@@ -1351,7 +1381,7 @@ async function saveResultImage() {
   y += 70;
   g.font = "500 40px Fredoka, sans-serif";
   const total = stats.correct + stats.mistakes.length;
-  g.fillText(`Time ${formatTime(stats.end - stats.start)}   ·   Correct ${stats.correct} / ${total}`, W / 2, y);
+  g.fillText(`${difficulty.label}   ·   Time ${formatTime(stats.end - stats.start)}   ·   Correct ${stats.correct} / ${total}`, W / 2, y);
   y += 70;
   g.textAlign = "left";
   g.font = "500 32px Fredoka, sans-serif";

@@ -240,3 +240,15 @@ body {
 .card-buttons { display: flex; gap: 6px; justify-content: center; align-items: center; margin-top: 12px; flex-wrap: wrap; }
 #change { margin-left: 0; }
 #shot { font-size: 20px; border: 0; border-radius: 12px; width: 44px; height: 40px; background: var(--paper-dark); cursor: pointer; }
+
+/* "hidden" must win over the display rules above */
+#debug[hidden] { display: none; }
+
+/* Difficulty buttons */
+.levels { display: flex; gap: 6px; justify-content: center; margin: 0 0 12px; }
+.level {
+  font: inherit; font-size: 16px; font-weight: 600; flex: 1; max-width: 110px; padding: 8px 0;
+  border: 0; border-radius: 12px; background: var(--paper-dark); color: var(--ink); cursor: pointer;
+  box-shadow: 0 3px 0 #0002;
+}
+.level.on { background: var(--accent); color: #fff; box-shadow: 0 3px 0 #c45e1f; }
