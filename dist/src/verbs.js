@@ -46,48 +46,51 @@ const T = {
 //   pretend  – plausible to fake     memory   – memorable one-off experiences
 //   go       – fits "go ___ing" (go swimming)  interest – something you could be interested in
 //   oneoff   – not something you do habitually, so never paired with "every weekend" etc.
+//   routine  – can be a regular routine or personal preference, so "likes TO <verb> on Saturdays"
+//              sounds natural (British usage). Activities without it take -ing only after like/love.
+//   notafterschool – breakfast and lunch aren't eaten "after school"
 const ACTIVITIES = [];
 function act(base, ger, rest, tags) {
   ACTIVITIES.push({ base, ger, rest, tags: tags.split(" ") });
 }
 act("sleep", "sleeping", "", "leisure ongoing pretend");
 act("wait", "waiting", "", "ongoing help");
-act("walk", "walking", "home", "leisure");
-act("study", "studying", "", "chore ongoing habit task pretend");
-act("run", "running", "in the park", "leisure ongoing habit memory go");
-act("swim", "swimming", "", "leisure ongoing habit skill go interest");
-act("shop", "shopping", "", "leisure go");
-act("dance", "dancing", "", "leisure ongoing skill go interest");
-act("fish", "fishing", "", "leisure go interest");
-act("cycle", "cycling", "", "leisure ongoing skill go interest");
+act("walk", "walking", "home", "leisure routine");
+act("study", "studying", "", "chore ongoing habit task pretend routine");
+act("run", "running", "in the park", "leisure ongoing habit memory go routine");
+act("swim", "swimming", "", "leisure ongoing habit skill go interest routine");
+act("shop", "shopping", "", "leisure go routine");
+act("dance", "dancing", "", "leisure ongoing skill go interest routine");
+act("fish", "fishing", "", "leisure go interest routine");
+act("cycle", "cycling", "", "leisure ongoing skill go interest routine");
 act("swim", "swimming", "in the sea", "leisure memory");
 
 for (const [obj, extra] of [
   ["pizza", "memory"], ["ice cream", "memory"], ["an apple", "task"], ["a sandwich", "task"],
   ["soup", "task"], ["pasta", ""], ["fruit", ""], ["vegetables", ""],
-  ["lunch", "task"], ["breakfast", "task"], ["dinner", "task"]
-]) act("eat", "eating", obj, `food ongoing habit pretend ${extra}`.trim());
+  ["lunch", "task notafterschool"], ["breakfast", "task notafterschool"], ["dinner", "task"]
+]) act("eat", "eating", obj, `food ongoing habit pretend routine ${extra}`.trim());
 
 act("buy", "buying", "a new shirt", "leisure oneoff");
 act("buy", "buying", "a gift", "leisure help");
 act("buy", "buying", "a bike", "leisure memory oneoff interest");
-act("buy", "buying", "some food", "chore help");
+act("buy", "buying", "some food", "chore help routine");
 
 for (const room of ["the kitchen", "the bedroom", "the house"])
-  act("clean", "cleaning", room, "chore help ongoing task");
+  act("clean", "cleaning", room, "chore help ongoing task routine");
 
-act("watch", "watching", "a movie", "leisure ongoing task");
-act("watch", "watching", "TV", "leisure ongoing habit pretend");
-act("watch", "watching", "a football match", "leisure ongoing task memory");
+act("watch", "watching", "a movie", "leisure ongoing task routine");
+act("watch", "watching", "TV", "leisure ongoing habit pretend routine");
+act("watch", "watching", "a football match", "leisure ongoing task memory routine");
 
-act("cook", "cooking", "dinner", "chore help ongoing task");
-act("cook", "cooking", "pasta", "chore help skill task interest");
-act("cook", "cooking", "a meal", "chore help skill task");
-act("cook", "cooking", "soup", "chore help task");
+act("cook", "cooking", "dinner", "chore help ongoing task routine");
+act("cook", "cooking", "pasta", "chore help skill task interest routine");
+act("cook", "cooking", "a meal", "chore help skill task routine");
+act("cook", "cooking", "soup", "chore help task routine");
 
-act("play", "playing", "the guitar", "leisure ongoing skill interest");
-act("play", "playing", "video games", "leisure ongoing habit");
-act("play", "playing", "tennis", "leisure ongoing skill memory interest");
+act("play", "playing", "the guitar", "leisure ongoing skill interest routine");
+act("play", "playing", "video games", "leisure ongoing habit routine");
+act("play", "playing", "tennis", "leisure ongoing skill memory interest routine");
 
 // ───────────── Main verbs ─────────────
 // form: "inf" | "ger" | "both"; a frame may override it.
@@ -131,11 +134,14 @@ export const VERBS = [
     frames: [F("past", T.past), F("presPerf", [""], ["just", "already"])] },
   { key: "go on", head: "go", particle: "on", past: "went", pp: "gone", form: "ger", tags: "ongoing",
     frames: [F("past", ["", "last night", "all afternoon"])] },
+  // like/love/hate + -ing is the general rule (enjoyment). British usage allows "like/love TO do" only for a
+  // regular routine or preference (habit phrase, or "as a child"), and only with activities tagged routine.
+  // "hate to" means regret ("I hate to interrupt"), so hate takes -ing only.
   { key: "hate", head: "hate", past: "hated", pp: "hated", form: "ger", tags: GENERAL,
     frames: [F("presSimple", [...T.likes, ""]), F("past", T.childhood), F("presPerf", [""], ["always"])] },
-  { key: "like", head: "like", past: "liked", pp: "liked", form: "ger", tags: GENERAL,
+  { key: "like", head: "like", past: "liked", pp: "liked", form: "ger", tags: GENERAL, routineInf: true,
     frames: [F("presSimple", [...T.likes, ""]), F("past", T.childhood), F("presPerf", [""], ["always", "never"])] },
-  { key: "love", head: "love", past: "loved", pp: "loved", form: "ger", tags: GENERAL,
+  { key: "love", head: "love", past: "loved", pp: "loved", form: "ger", tags: GENERAL, routineInf: true,
     frames: [F("presSimple", [...T.likes, ""]), F("past", T.childhood), F("presPerf", [""], ["always"])] },
   { key: "don't mind", head: "mind", negative: true, form: "ger", tags: "chore help",
     frames: [F("presSimple", [...T.likes, ""]), F("past", T.past)] },
@@ -212,7 +218,13 @@ export function activitiesFor(verb, time = "") {
   const allowed = verb.tags ? verb.tags.split(" ") : null;
   return ACTIVITIES.filter((a) =>
     (!allowed || a.tags.some((t) => allowed.includes(t))) &&
-    !(HABITUAL_TIMES.has(time) && a.tags.includes("oneoff")));
+    !(HABITUAL_TIMES.has(time) && a.tags.includes("oneoff")) &&
+    !(time === "after school" && a.tags.includes("notafterschool")));
+}
+
+// A sentence about a regular routine (not a general taste): a habit phrase in the present simple, or "as a child".
+function isRoutine(frame, time) {
+  return (frame.tense === "presSimple" && T.likes.includes(time)) || (frame.tense === "past" && time === "as a child");
 }
 
 /** Build one question from fully specified parts (used by the generator and the review dump). */
@@ -223,10 +235,11 @@ export function buildQuestion({ subject, verb, frame, time, adv, activity, io, d
   const after = `${activity.rest ? " " + activity.rest : ""}${time ? " " + time : ""}.`;
   const form = frame.form || verb.form;
   const inf = `to ${activity.base}`;
-  const answers = form === "inf" ? [inf] : form === "ger" ? [activity.ger] : [inf, activity.ger];
+  let answers = form === "inf" ? [inf] : form === "ger" ? [activity.ger] : [inf, activity.ger];
+  if (verb.routineInf && isRoutine(frame, time) && activity.tags.includes("routine")) answers = [activity.ger, inf];
   const rule = verb.spend ? "spend + time + -ing"
     : io ? `${verb.key} + person + to …`
-    : `${verb.key.replace(/ \((to|-ing)\)/, "")} + ${form === "inf" ? "to …" : form === "ger" ? "-ing" : "to … OR -ing"}`;
+    : `${verb.key.replace(/ \((to|-ing)\)/, "")} + ${answers.length === 2 ? "-ing OR to …" : form === "inf" ? "to …" : form === "ger" ? "-ing" : "to … OR -ing"}`;
   return {
     before,
     hint: activity.base,

@@ -30,4 +30,16 @@ for (const verb of VERBS) {
   out.push("");
 }
 
+out.push("\nPART C — like / love / hate: which answers are accepted? (-ing always; 'to' only for a routine)\n");
+for (const key of ["like", "love", "hate"]) {
+  const verb = VERBS.find((v) => v.key === key);
+  const presSimple = verb.frames.find((f) => f.tense === "presSimple");
+  const past = verb.frames.find((f) => f.tense === "past");
+  out.push(`■ ${key}`);
+  for (const [label, frame, time] of [["general taste", presSimple, ""], ["routine (Saturdays)", presSimple, "on Saturdays"], ["routine (as a child)", past, "as a child"]])
+    for (const activity of activitiesFor(verb, time))
+      out.push(`  [${label.padEnd(20)}] ` + (() => { const q = buildQuestion({ subject: she, verb, frame, time, adv: "", activity, duration: "", io: null }); return `${q.full.padEnd(54)} → ${q.answers.join(" / ")}`; })());
+  out.push("");
+}
+
 console.log(out.join("\n"));

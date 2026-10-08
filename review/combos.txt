@@ -1,4 +1,4 @@
-PART A — tense & time phrase for each verb
+﻿PART A — tense & time phrase for each verb
 
 ■ decide
   She decided to sleep yesterday.                                → to sleep
@@ -988,79 +988,79 @@ PART B — every activity each verb accepts
 
 ■ like
   She likes sleeping at the weekend.                             → sleeping
-  She likes walking home at the weekend.                         → walking
-  She likes studying at the weekend.                             → studying
-  She likes running in the park at the weekend.                  → running
-  She likes swimming at the weekend.                             → swimming
-  She likes shopping at the weekend.                             → shopping
-  She likes dancing at the weekend.                              → dancing
-  She likes fishing at the weekend.                              → fishing
-  She likes cycling at the weekend.                              → cycling
+  She likes walking home at the weekend.                         → walking / to walk
+  She likes studying at the weekend.                             → studying / to study
+  She likes running in the park at the weekend.                  → running / to run
+  She likes swimming at the weekend.                             → swimming / to swim
+  She likes shopping at the weekend.                             → shopping / to shop
+  She likes dancing at the weekend.                              → dancing / to dance
+  She likes fishing at the weekend.                              → fishing / to fish
+  She likes cycling at the weekend.                              → cycling / to cycle
   She likes swimming in the sea at the weekend.                  → swimming
-  She likes eating pizza at the weekend.                         → eating
-  She likes eating ice cream at the weekend.                     → eating
-  She likes eating an apple at the weekend.                      → eating
-  She likes eating a sandwich at the weekend.                    → eating
-  She likes eating soup at the weekend.                          → eating
-  She likes eating pasta at the weekend.                         → eating
-  She likes eating fruit at the weekend.                         → eating
-  She likes eating vegetables at the weekend.                    → eating
-  She likes eating lunch at the weekend.                         → eating
-  She likes eating breakfast at the weekend.                     → eating
-  She likes eating dinner at the weekend.                        → eating
+  She likes eating pizza at the weekend.                         → eating / to eat
+  She likes eating ice cream at the weekend.                     → eating / to eat
+  She likes eating an apple at the weekend.                      → eating / to eat
+  She likes eating a sandwich at the weekend.                    → eating / to eat
+  She likes eating soup at the weekend.                          → eating / to eat
+  She likes eating pasta at the weekend.                         → eating / to eat
+  She likes eating fruit at the weekend.                         → eating / to eat
+  She likes eating vegetables at the weekend.                    → eating / to eat
+  She likes eating lunch at the weekend.                         → eating / to eat
+  She likes eating breakfast at the weekend.                     → eating / to eat
+  She likes eating dinner at the weekend.                        → eating / to eat
   She likes buying a gift at the weekend.                        → buying
-  She likes buying some food at the weekend.                     → buying
-  She likes cleaning the kitchen at the weekend.                 → cleaning
-  She likes cleaning the bedroom at the weekend.                 → cleaning
-  She likes cleaning the house at the weekend.                   → cleaning
-  She likes watching a movie at the weekend.                     → watching
-  She likes watching TV at the weekend.                          → watching
-  She likes watching a football match at the weekend.            → watching
-  She likes cooking dinner at the weekend.                       → cooking
-  She likes cooking pasta at the weekend.                        → cooking
-  She likes cooking a meal at the weekend.                       → cooking
-  She likes cooking soup at the weekend.                         → cooking
-  She likes playing the guitar at the weekend.                   → playing
-  She likes playing video games at the weekend.                  → playing
-  She likes playing tennis at the weekend.                       → playing
+  She likes buying some food at the weekend.                     → buying / to buy
+  She likes cleaning the kitchen at the weekend.                 → cleaning / to clean
+  She likes cleaning the bedroom at the weekend.                 → cleaning / to clean
+  She likes cleaning the house at the weekend.                   → cleaning / to clean
+  She likes watching a movie at the weekend.                     → watching / to watch
+  She likes watching TV at the weekend.                          → watching / to watch
+  She likes watching a football match at the weekend.            → watching / to watch
+  She likes cooking dinner at the weekend.                       → cooking / to cook
+  She likes cooking pasta at the weekend.                        → cooking / to cook
+  She likes cooking a meal at the weekend.                       → cooking / to cook
+  She likes cooking soup at the weekend.                         → cooking / to cook
+  She likes playing the guitar at the weekend.                   → playing / to play
+  She likes playing video games at the weekend.                  → playing / to play
+  She likes playing tennis at the weekend.                       → playing / to play
 
 ■ love
   She loves sleeping at the weekend.                             → sleeping
-  She loves walking home at the weekend.                         → walking
-  She loves studying at the weekend.                             → studying
-  She loves running in the park at the weekend.                  → running
-  She loves swimming at the weekend.                             → swimming
-  She loves shopping at the weekend.                             → shopping
-  She loves dancing at the weekend.                              → dancing
-  She loves fishing at the weekend.                              → fishing
-  She loves cycling at the weekend.                              → cycling
+  She loves walking home at the weekend.                         → walking / to walk
+  She loves studying at the weekend.                             → studying / to study
+  She loves running in the park at the weekend.                  → running / to run
+  She loves swimming at the weekend.                             → swimming / to swim
+  She loves shopping at the weekend.                             → shopping / to shop
+  She loves dancing at the weekend.                              → dancing / to dance
+  She loves fishing at the weekend.                              → fishing / to fish
+  She loves cycling at the weekend.                              → cycling / to cycle
   She loves swimming in the sea at the weekend.                  → swimming
-  She loves eating pizza at the weekend.                         → eating
-  She loves eating ice cream at the weekend.                     → eating
-  She loves eating an apple at the weekend.                      → eating
-  She loves eating a sandwich at the weekend.                    → eating
-  She loves eating soup at the weekend.                          → eating
-  She loves eating pasta at the weekend.                         → eating
-  She loves eating fruit at the weekend.                         → eating
-  She loves eating vegetables at the weekend.                    → eating
-  She loves eating lunch at the weekend.                         → eating
-  She loves eating breakfast at the weekend.                     → eating
-  She loves eating dinner at the weekend.                        → eating
+  She loves eating pizza at the weekend.                         → eating / to eat
+  She loves eating ice cream at the weekend.                     → eating / to eat
+  She loves eating an apple at the weekend.                      → eating / to eat
+  She loves eating a sandwich at the weekend.                    → eating / to eat
+  She loves eating soup at the weekend.                          → eating / to eat
+  She loves eating pasta at the weekend.                         → eating / to eat
+  She loves eating fruit at the weekend.                         → eating / to eat
+  She loves eating vegetables at the weekend.                    → eating / to eat
+  She loves eating lunch at the weekend.                         → eating / to eat
+  She loves eating breakfast at the weekend.                     → eating / to eat
+  She loves eating dinner at the weekend.                        → eating / to eat
   She loves buying a gift at the weekend.                        → buying
-  She loves buying some food at the weekend.                     → buying
-  She loves cleaning the kitchen at the weekend.                 → cleaning
-  She loves cleaning the bedroom at the weekend.                 → cleaning
-  She loves cleaning the house at the weekend.                   → cleaning
-  She loves watching a movie at the weekend.                     → watching
-  She loves watching TV at the weekend.                          → watching
-  She loves watching a football match at the weekend.            → watching
-  She loves cooking dinner at the weekend.                       → cooking
-  She loves cooking pasta at the weekend.                        → cooking
-  She loves cooking a meal at the weekend.                       → cooking
-  She loves cooking soup at the weekend.                         → cooking
-  She loves playing the guitar at the weekend.                   → playing
-  She loves playing video games at the weekend.                  → playing
-  She loves playing tennis at the weekend.                       → playing
+  She loves buying some food at the weekend.                     → buying / to buy
+  She loves cleaning the kitchen at the weekend.                 → cleaning / to clean
+  She loves cleaning the bedroom at the weekend.                 → cleaning / to clean
+  She loves cleaning the house at the weekend.                   → cleaning / to clean
+  She loves watching a movie at the weekend.                     → watching / to watch
+  She loves watching TV at the weekend.                          → watching / to watch
+  She loves watching a football match at the weekend.            → watching / to watch
+  She loves cooking dinner at the weekend.                       → cooking / to cook
+  She loves cooking pasta at the weekend.                        → cooking / to cook
+  She loves cooking a meal at the weekend.                       → cooking / to cook
+  She loves cooking soup at the weekend.                         → cooking / to cook
+  She loves playing the guitar at the weekend.                   → playing / to play
+  She loves playing video games at the weekend.                  → playing / to play
+  She loves playing tennis at the weekend.                       → playing / to play
 
 ■ don't mind
   She doesn't mind waiting at the weekend.                       → waiting
@@ -1207,4 +1207,349 @@ PART B — every activity each verb accepts
   She will never forget buying a bike as a child.                → buying
   She will never forget watching a football match as a child.    → watching
   She will never forget playing tennis as a child.               → playing
+
+
+PART C — like / love / hate: which answers are accepted? (-ing always; 'to' only for a routine)
+
+■ like
+  [general taste       ] She likes sleeping.                                    → sleeping
+  [general taste       ] She likes walking home.                                → walking
+  [general taste       ] She likes studying.                                    → studying
+  [general taste       ] She likes running in the park.                         → running
+  [general taste       ] She likes swimming.                                    → swimming
+  [general taste       ] She likes shopping.                                    → shopping
+  [general taste       ] She likes dancing.                                     → dancing
+  [general taste       ] She likes fishing.                                     → fishing
+  [general taste       ] She likes cycling.                                     → cycling
+  [general taste       ] She likes swimming in the sea.                         → swimming
+  [general taste       ] She likes eating pizza.                                → eating
+  [general taste       ] She likes eating ice cream.                            → eating
+  [general taste       ] She likes eating an apple.                             → eating
+  [general taste       ] She likes eating a sandwich.                           → eating
+  [general taste       ] She likes eating soup.                                 → eating
+  [general taste       ] She likes eating pasta.                                → eating
+  [general taste       ] She likes eating fruit.                                → eating
+  [general taste       ] She likes eating vegetables.                           → eating
+  [general taste       ] She likes eating lunch.                                → eating
+  [general taste       ] She likes eating breakfast.                            → eating
+  [general taste       ] She likes eating dinner.                               → eating
+  [general taste       ] She likes buying a new shirt.                          → buying
+  [general taste       ] She likes buying a gift.                               → buying
+  [general taste       ] She likes buying a bike.                               → buying
+  [general taste       ] She likes buying some food.                            → buying
+  [general taste       ] She likes cleaning the kitchen.                        → cleaning
+  [general taste       ] She likes cleaning the bedroom.                        → cleaning
+  [general taste       ] She likes cleaning the house.                          → cleaning
+  [general taste       ] She likes watching a movie.                            → watching
+  [general taste       ] She likes watching TV.                                 → watching
+  [general taste       ] She likes watching a football match.                   → watching
+  [general taste       ] She likes cooking dinner.                              → cooking
+  [general taste       ] She likes cooking pasta.                               → cooking
+  [general taste       ] She likes cooking a meal.                              → cooking
+  [general taste       ] She likes cooking soup.                                → cooking
+  [general taste       ] She likes playing the guitar.                          → playing
+  [general taste       ] She likes playing video games.                         → playing
+  [general taste       ] She likes playing tennis.                              → playing
+  [routine (Saturdays) ] She likes sleeping on Saturdays.                       → sleeping
+  [routine (Saturdays) ] She likes walking home on Saturdays.                   → walking / to walk
+  [routine (Saturdays) ] She likes studying on Saturdays.                       → studying / to study
+  [routine (Saturdays) ] She likes running in the park on Saturdays.            → running / to run
+  [routine (Saturdays) ] She likes swimming on Saturdays.                       → swimming / to swim
+  [routine (Saturdays) ] She likes shopping on Saturdays.                       → shopping / to shop
+  [routine (Saturdays) ] She likes dancing on Saturdays.                        → dancing / to dance
+  [routine (Saturdays) ] She likes fishing on Saturdays.                        → fishing / to fish
+  [routine (Saturdays) ] She likes cycling on Saturdays.                        → cycling / to cycle
+  [routine (Saturdays) ] She likes swimming in the sea on Saturdays.            → swimming
+  [routine (Saturdays) ] She likes eating pizza on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She likes eating ice cream on Saturdays.               → eating / to eat
+  [routine (Saturdays) ] She likes eating an apple on Saturdays.                → eating / to eat
+  [routine (Saturdays) ] She likes eating a sandwich on Saturdays.              → eating / to eat
+  [routine (Saturdays) ] She likes eating soup on Saturdays.                    → eating / to eat
+  [routine (Saturdays) ] She likes eating pasta on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She likes eating fruit on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She likes eating vegetables on Saturdays.              → eating / to eat
+  [routine (Saturdays) ] She likes eating lunch on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She likes eating breakfast on Saturdays.               → eating / to eat
+  [routine (Saturdays) ] She likes eating dinner on Saturdays.                  → eating / to eat
+  [routine (Saturdays) ] She likes buying a gift on Saturdays.                  → buying
+  [routine (Saturdays) ] She likes buying some food on Saturdays.               → buying / to buy
+  [routine (Saturdays) ] She likes cleaning the kitchen on Saturdays.           → cleaning / to clean
+  [routine (Saturdays) ] She likes cleaning the bedroom on Saturdays.           → cleaning / to clean
+  [routine (Saturdays) ] She likes cleaning the house on Saturdays.             → cleaning / to clean
+  [routine (Saturdays) ] She likes watching a movie on Saturdays.               → watching / to watch
+  [routine (Saturdays) ] She likes watching TV on Saturdays.                    → watching / to watch
+  [routine (Saturdays) ] She likes watching a football match on Saturdays.      → watching / to watch
+  [routine (Saturdays) ] She likes cooking dinner on Saturdays.                 → cooking / to cook
+  [routine (Saturdays) ] She likes cooking pasta on Saturdays.                  → cooking / to cook
+  [routine (Saturdays) ] She likes cooking a meal on Saturdays.                 → cooking / to cook
+  [routine (Saturdays) ] She likes cooking soup on Saturdays.                   → cooking / to cook
+  [routine (Saturdays) ] She likes playing the guitar on Saturdays.             → playing / to play
+  [routine (Saturdays) ] She likes playing video games on Saturdays.            → playing / to play
+  [routine (Saturdays) ] She likes playing tennis on Saturdays.                 → playing / to play
+  [routine (as a child)] She liked sleeping as a child.                         → sleeping
+  [routine (as a child)] She liked walking home as a child.                     → walking / to walk
+  [routine (as a child)] She liked studying as a child.                         → studying / to study
+  [routine (as a child)] She liked running in the park as a child.              → running / to run
+  [routine (as a child)] She liked swimming as a child.                         → swimming / to swim
+  [routine (as a child)] She liked shopping as a child.                         → shopping / to shop
+  [routine (as a child)] She liked dancing as a child.                          → dancing / to dance
+  [routine (as a child)] She liked fishing as a child.                          → fishing / to fish
+  [routine (as a child)] She liked cycling as a child.                          → cycling / to cycle
+  [routine (as a child)] She liked swimming in the sea as a child.              → swimming
+  [routine (as a child)] She liked eating pizza as a child.                     → eating / to eat
+  [routine (as a child)] She liked eating ice cream as a child.                 → eating / to eat
+  [routine (as a child)] She liked eating an apple as a child.                  → eating / to eat
+  [routine (as a child)] She liked eating a sandwich as a child.                → eating / to eat
+  [routine (as a child)] She liked eating soup as a child.                      → eating / to eat
+  [routine (as a child)] She liked eating pasta as a child.                     → eating / to eat
+  [routine (as a child)] She liked eating fruit as a child.                     → eating / to eat
+  [routine (as a child)] She liked eating vegetables as a child.                → eating / to eat
+  [routine (as a child)] She liked eating lunch as a child.                     → eating / to eat
+  [routine (as a child)] She liked eating breakfast as a child.                 → eating / to eat
+  [routine (as a child)] She liked eating dinner as a child.                    → eating / to eat
+  [routine (as a child)] She liked buying a new shirt as a child.               → buying
+  [routine (as a child)] She liked buying a gift as a child.                    → buying
+  [routine (as a child)] She liked buying a bike as a child.                    → buying
+  [routine (as a child)] She liked buying some food as a child.                 → buying / to buy
+  [routine (as a child)] She liked cleaning the kitchen as a child.             → cleaning / to clean
+  [routine (as a child)] She liked cleaning the bedroom as a child.             → cleaning / to clean
+  [routine (as a child)] She liked cleaning the house as a child.               → cleaning / to clean
+  [routine (as a child)] She liked watching a movie as a child.                 → watching / to watch
+  [routine (as a child)] She liked watching TV as a child.                      → watching / to watch
+  [routine (as a child)] She liked watching a football match as a child.        → watching / to watch
+  [routine (as a child)] She liked cooking dinner as a child.                   → cooking / to cook
+  [routine (as a child)] She liked cooking pasta as a child.                    → cooking / to cook
+  [routine (as a child)] She liked cooking a meal as a child.                   → cooking / to cook
+  [routine (as a child)] She liked cooking soup as a child.                     → cooking / to cook
+  [routine (as a child)] She liked playing the guitar as a child.               → playing / to play
+  [routine (as a child)] She liked playing video games as a child.              → playing / to play
+  [routine (as a child)] She liked playing tennis as a child.                   → playing / to play
+
+■ love
+  [general taste       ] She loves sleeping.                                    → sleeping
+  [general taste       ] She loves walking home.                                → walking
+  [general taste       ] She loves studying.                                    → studying
+  [general taste       ] She loves running in the park.                         → running
+  [general taste       ] She loves swimming.                                    → swimming
+  [general taste       ] She loves shopping.                                    → shopping
+  [general taste       ] She loves dancing.                                     → dancing
+  [general taste       ] She loves fishing.                                     → fishing
+  [general taste       ] She loves cycling.                                     → cycling
+  [general taste       ] She loves swimming in the sea.                         → swimming
+  [general taste       ] She loves eating pizza.                                → eating
+  [general taste       ] She loves eating ice cream.                            → eating
+  [general taste       ] She loves eating an apple.                             → eating
+  [general taste       ] She loves eating a sandwich.                           → eating
+  [general taste       ] She loves eating soup.                                 → eating
+  [general taste       ] She loves eating pasta.                                → eating
+  [general taste       ] She loves eating fruit.                                → eating
+  [general taste       ] She loves eating vegetables.                           → eating
+  [general taste       ] She loves eating lunch.                                → eating
+  [general taste       ] She loves eating breakfast.                            → eating
+  [general taste       ] She loves eating dinner.                               → eating
+  [general taste       ] She loves buying a new shirt.                          → buying
+  [general taste       ] She loves buying a gift.                               → buying
+  [general taste       ] She loves buying a bike.                               → buying
+  [general taste       ] She loves buying some food.                            → buying
+  [general taste       ] She loves cleaning the kitchen.                        → cleaning
+  [general taste       ] She loves cleaning the bedroom.                        → cleaning
+  [general taste       ] She loves cleaning the house.                          → cleaning
+  [general taste       ] She loves watching a movie.                            → watching
+  [general taste       ] She loves watching TV.                                 → watching
+  [general taste       ] She loves watching a football match.                   → watching
+  [general taste       ] She loves cooking dinner.                              → cooking
+  [general taste       ] She loves cooking pasta.                               → cooking
+  [general taste       ] She loves cooking a meal.                              → cooking
+  [general taste       ] She loves cooking soup.                                → cooking
+  [general taste       ] She loves playing the guitar.                          → playing
+  [general taste       ] She loves playing video games.                         → playing
+  [general taste       ] She loves playing tennis.                              → playing
+  [routine (Saturdays) ] She loves sleeping on Saturdays.                       → sleeping
+  [routine (Saturdays) ] She loves walking home on Saturdays.                   → walking / to walk
+  [routine (Saturdays) ] She loves studying on Saturdays.                       → studying / to study
+  [routine (Saturdays) ] She loves running in the park on Saturdays.            → running / to run
+  [routine (Saturdays) ] She loves swimming on Saturdays.                       → swimming / to swim
+  [routine (Saturdays) ] She loves shopping on Saturdays.                       → shopping / to shop
+  [routine (Saturdays) ] She loves dancing on Saturdays.                        → dancing / to dance
+  [routine (Saturdays) ] She loves fishing on Saturdays.                        → fishing / to fish
+  [routine (Saturdays) ] She loves cycling on Saturdays.                        → cycling / to cycle
+  [routine (Saturdays) ] She loves swimming in the sea on Saturdays.            → swimming
+  [routine (Saturdays) ] She loves eating pizza on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She loves eating ice cream on Saturdays.               → eating / to eat
+  [routine (Saturdays) ] She loves eating an apple on Saturdays.                → eating / to eat
+  [routine (Saturdays) ] She loves eating a sandwich on Saturdays.              → eating / to eat
+  [routine (Saturdays) ] She loves eating soup on Saturdays.                    → eating / to eat
+  [routine (Saturdays) ] She loves eating pasta on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She loves eating fruit on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She loves eating vegetables on Saturdays.              → eating / to eat
+  [routine (Saturdays) ] She loves eating lunch on Saturdays.                   → eating / to eat
+  [routine (Saturdays) ] She loves eating breakfast on Saturdays.               → eating / to eat
+  [routine (Saturdays) ] She loves eating dinner on Saturdays.                  → eating / to eat
+  [routine (Saturdays) ] She loves buying a gift on Saturdays.                  → buying
+  [routine (Saturdays) ] She loves buying some food on Saturdays.               → buying / to buy
+  [routine (Saturdays) ] She loves cleaning the kitchen on Saturdays.           → cleaning / to clean
+  [routine (Saturdays) ] She loves cleaning the bedroom on Saturdays.           → cleaning / to clean
+  [routine (Saturdays) ] She loves cleaning the house on Saturdays.             → cleaning / to clean
+  [routine (Saturdays) ] She loves watching a movie on Saturdays.               → watching / to watch
+  [routine (Saturdays) ] She loves watching TV on Saturdays.                    → watching / to watch
+  [routine (Saturdays) ] She loves watching a football match on Saturdays.      → watching / to watch
+  [routine (Saturdays) ] She loves cooking dinner on Saturdays.                 → cooking / to cook
+  [routine (Saturdays) ] She loves cooking pasta on Saturdays.                  → cooking / to cook
+  [routine (Saturdays) ] She loves cooking a meal on Saturdays.                 → cooking / to cook
+  [routine (Saturdays) ] She loves cooking soup on Saturdays.                   → cooking / to cook
+  [routine (Saturdays) ] She loves playing the guitar on Saturdays.             → playing / to play
+  [routine (Saturdays) ] She loves playing video games on Saturdays.            → playing / to play
+  [routine (Saturdays) ] She loves playing tennis on Saturdays.                 → playing / to play
+  [routine (as a child)] She loved sleeping as a child.                         → sleeping
+  [routine (as a child)] She loved walking home as a child.                     → walking / to walk
+  [routine (as a child)] She loved studying as a child.                         → studying / to study
+  [routine (as a child)] She loved running in the park as a child.              → running / to run
+  [routine (as a child)] She loved swimming as a child.                         → swimming / to swim
+  [routine (as a child)] She loved shopping as a child.                         → shopping / to shop
+  [routine (as a child)] She loved dancing as a child.                          → dancing / to dance
+  [routine (as a child)] She loved fishing as a child.                          → fishing / to fish
+  [routine (as a child)] She loved cycling as a child.                          → cycling / to cycle
+  [routine (as a child)] She loved swimming in the sea as a child.              → swimming
+  [routine (as a child)] She loved eating pizza as a child.                     → eating / to eat
+  [routine (as a child)] She loved eating ice cream as a child.                 → eating / to eat
+  [routine (as a child)] She loved eating an apple as a child.                  → eating / to eat
+  [routine (as a child)] She loved eating a sandwich as a child.                → eating / to eat
+  [routine (as a child)] She loved eating soup as a child.                      → eating / to eat
+  [routine (as a child)] She loved eating pasta as a child.                     → eating / to eat
+  [routine (as a child)] She loved eating fruit as a child.                     → eating / to eat
+  [routine (as a child)] She loved eating vegetables as a child.                → eating / to eat
+  [routine (as a child)] She loved eating lunch as a child.                     → eating / to eat
+  [routine (as a child)] She loved eating breakfast as a child.                 → eating / to eat
+  [routine (as a child)] She loved eating dinner as a child.                    → eating / to eat
+  [routine (as a child)] She loved buying a new shirt as a child.               → buying
+  [routine (as a child)] She loved buying a gift as a child.                    → buying
+  [routine (as a child)] She loved buying a bike as a child.                    → buying
+  [routine (as a child)] She loved buying some food as a child.                 → buying / to buy
+  [routine (as a child)] She loved cleaning the kitchen as a child.             → cleaning / to clean
+  [routine (as a child)] She loved cleaning the bedroom as a child.             → cleaning / to clean
+  [routine (as a child)] She loved cleaning the house as a child.               → cleaning / to clean
+  [routine (as a child)] She loved watching a movie as a child.                 → watching / to watch
+  [routine (as a child)] She loved watching TV as a child.                      → watching / to watch
+  [routine (as a child)] She loved watching a football match as a child.        → watching / to watch
+  [routine (as a child)] She loved cooking dinner as a child.                   → cooking / to cook
+  [routine (as a child)] She loved cooking pasta as a child.                    → cooking / to cook
+  [routine (as a child)] She loved cooking a meal as a child.                   → cooking / to cook
+  [routine (as a child)] She loved cooking soup as a child.                     → cooking / to cook
+  [routine (as a child)] She loved playing the guitar as a child.               → playing / to play
+  [routine (as a child)] She loved playing video games as a child.              → playing / to play
+  [routine (as a child)] She loved playing tennis as a child.                   → playing / to play
+
+■ hate
+  [general taste       ] She hates sleeping.                                    → sleeping
+  [general taste       ] She hates walking home.                                → walking
+  [general taste       ] She hates studying.                                    → studying
+  [general taste       ] She hates running in the park.                         → running
+  [general taste       ] She hates swimming.                                    → swimming
+  [general taste       ] She hates shopping.                                    → shopping
+  [general taste       ] She hates dancing.                                     → dancing
+  [general taste       ] She hates fishing.                                     → fishing
+  [general taste       ] She hates cycling.                                     → cycling
+  [general taste       ] She hates swimming in the sea.                         → swimming
+  [general taste       ] She hates eating pizza.                                → eating
+  [general taste       ] She hates eating ice cream.                            → eating
+  [general taste       ] She hates eating an apple.                             → eating
+  [general taste       ] She hates eating a sandwich.                           → eating
+  [general taste       ] She hates eating soup.                                 → eating
+  [general taste       ] She hates eating pasta.                                → eating
+  [general taste       ] She hates eating fruit.                                → eating
+  [general taste       ] She hates eating vegetables.                           → eating
+  [general taste       ] She hates eating lunch.                                → eating
+  [general taste       ] She hates eating breakfast.                            → eating
+  [general taste       ] She hates eating dinner.                               → eating
+  [general taste       ] She hates buying a new shirt.                          → buying
+  [general taste       ] She hates buying a gift.                               → buying
+  [general taste       ] She hates buying a bike.                               → buying
+  [general taste       ] She hates buying some food.                            → buying
+  [general taste       ] She hates cleaning the kitchen.                        → cleaning
+  [general taste       ] She hates cleaning the bedroom.                        → cleaning
+  [general taste       ] She hates cleaning the house.                          → cleaning
+  [general taste       ] She hates watching a movie.                            → watching
+  [general taste       ] She hates watching TV.                                 → watching
+  [general taste       ] She hates watching a football match.                   → watching
+  [general taste       ] She hates cooking dinner.                              → cooking
+  [general taste       ] She hates cooking pasta.                               → cooking
+  [general taste       ] She hates cooking a meal.                              → cooking
+  [general taste       ] She hates cooking soup.                                → cooking
+  [general taste       ] She hates playing the guitar.                          → playing
+  [general taste       ] She hates playing video games.                         → playing
+  [general taste       ] She hates playing tennis.                              → playing
+  [routine (Saturdays) ] She hates sleeping on Saturdays.                       → sleeping
+  [routine (Saturdays) ] She hates walking home on Saturdays.                   → walking
+  [routine (Saturdays) ] She hates studying on Saturdays.                       → studying
+  [routine (Saturdays) ] She hates running in the park on Saturdays.            → running
+  [routine (Saturdays) ] She hates swimming on Saturdays.                       → swimming
+  [routine (Saturdays) ] She hates shopping on Saturdays.                       → shopping
+  [routine (Saturdays) ] She hates dancing on Saturdays.                        → dancing
+  [routine (Saturdays) ] She hates fishing on Saturdays.                        → fishing
+  [routine (Saturdays) ] She hates cycling on Saturdays.                        → cycling
+  [routine (Saturdays) ] She hates swimming in the sea on Saturdays.            → swimming
+  [routine (Saturdays) ] She hates eating pizza on Saturdays.                   → eating
+  [routine (Saturdays) ] She hates eating ice cream on Saturdays.               → eating
+  [routine (Saturdays) ] She hates eating an apple on Saturdays.                → eating
+  [routine (Saturdays) ] She hates eating a sandwich on Saturdays.              → eating
+  [routine (Saturdays) ] She hates eating soup on Saturdays.                    → eating
+  [routine (Saturdays) ] She hates eating pasta on Saturdays.                   → eating
+  [routine (Saturdays) ] She hates eating fruit on Saturdays.                   → eating
+  [routine (Saturdays) ] She hates eating vegetables on Saturdays.              → eating
+  [routine (Saturdays) ] She hates eating lunch on Saturdays.                   → eating
+  [routine (Saturdays) ] She hates eating breakfast on Saturdays.               → eating
+  [routine (Saturdays) ] She hates eating dinner on Saturdays.                  → eating
+  [routine (Saturdays) ] She hates buying a gift on Saturdays.                  → buying
+  [routine (Saturdays) ] She hates buying some food on Saturdays.               → buying
+  [routine (Saturdays) ] She hates cleaning the kitchen on Saturdays.           → cleaning
+  [routine (Saturdays) ] She hates cleaning the bedroom on Saturdays.           → cleaning
+  [routine (Saturdays) ] She hates cleaning the house on Saturdays.             → cleaning
+  [routine (Saturdays) ] She hates watching a movie on Saturdays.               → watching
+  [routine (Saturdays) ] She hates watching TV on Saturdays.                    → watching
+  [routine (Saturdays) ] She hates watching a football match on Saturdays.      → watching
+  [routine (Saturdays) ] She hates cooking dinner on Saturdays.                 → cooking
+  [routine (Saturdays) ] She hates cooking pasta on Saturdays.                  → cooking
+  [routine (Saturdays) ] She hates cooking a meal on Saturdays.                 → cooking
+  [routine (Saturdays) ] She hates cooking soup on Saturdays.                   → cooking
+  [routine (Saturdays) ] She hates playing the guitar on Saturdays.             → playing
+  [routine (Saturdays) ] She hates playing video games on Saturdays.            → playing
+  [routine (Saturdays) ] She hates playing tennis on Saturdays.                 → playing
+  [routine (as a child)] She hated sleeping as a child.                         → sleeping
+  [routine (as a child)] She hated walking home as a child.                     → walking
+  [routine (as a child)] She hated studying as a child.                         → studying
+  [routine (as a child)] She hated running in the park as a child.              → running
+  [routine (as a child)] She hated swimming as a child.                         → swimming
+  [routine (as a child)] She hated shopping as a child.                         → shopping
+  [routine (as a child)] She hated dancing as a child.                          → dancing
+  [routine (as a child)] She hated fishing as a child.                          → fishing
+  [routine (as a child)] She hated cycling as a child.                          → cycling
+  [routine (as a child)] She hated swimming in the sea as a child.              → swimming
+  [routine (as a child)] She hated eating pizza as a child.                     → eating
+  [routine (as a child)] She hated eating ice cream as a child.                 → eating
+  [routine (as a child)] She hated eating an apple as a child.                  → eating
+  [routine (as a child)] She hated eating a sandwich as a child.                → eating
+  [routine (as a child)] She hated eating soup as a child.                      → eating
+  [routine (as a child)] She hated eating pasta as a child.                     → eating
+  [routine (as a child)] She hated eating fruit as a child.                     → eating
+  [routine (as a child)] She hated eating vegetables as a child.                → eating
+  [routine (as a child)] She hated eating lunch as a child.                     → eating
+  [routine (as a child)] She hated eating breakfast as a child.                 → eating
+  [routine (as a child)] She hated eating dinner as a child.                    → eating
+  [routine (as a child)] She hated buying a new shirt as a child.               → buying
+  [routine (as a child)] She hated buying a gift as a child.                    → buying
+  [routine (as a child)] She hated buying a bike as a child.                    → buying
+  [routine (as a child)] She hated buying some food as a child.                 → buying
+  [routine (as a child)] She hated cleaning the kitchen as a child.             → cleaning
+  [routine (as a child)] She hated cleaning the bedroom as a child.             → cleaning
+  [routine (as a child)] She hated cleaning the house as a child.               → cleaning
+  [routine (as a child)] She hated watching a movie as a child.                 → watching
+  [routine (as a child)] She hated watching TV as a child.                      → watching
+  [routine (as a child)] She hated watching a football match as a child.        → watching
+  [routine (as a child)] She hated cooking dinner as a child.                   → cooking
+  [routine (as a child)] She hated cooking pasta as a child.                    → cooking
+  [routine (as a child)] She hated cooking a meal as a child.                   → cooking
+  [routine (as a child)] She hated cooking soup as a child.                     → cooking
+  [routine (as a child)] She hated playing the guitar as a child.               → playing
+  [routine (as a child)] She hated playing video games as a child.              → playing
+  [routine (as a child)] She hated playing tennis as a child.                   → playing
 
