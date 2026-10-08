@@ -2,8 +2,8 @@ import * as THREE from "three";
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
-import { generateQuestion, checkAnswer } from "./verbs.js?v=6";
-import { Sfx } from "./sfx.js?v=6";
+import { generateQuestion, checkAnswer } from "./verbs.js?v=7";
+import { Sfx } from "./sfx.js?v=7";
 
 const V3 = THREE.Vector3;
 const sfx = new Sfx();
@@ -1258,6 +1258,35 @@ muteBtn.addEventListener("click", () => {
 });
 document.getElementById("again").addEventListener("click", () => { sfx.unlock(); resetGame(); });
 document.getElementById("change").addEventListener("click", () => { sfx.unlock(); card.hidden = true; showPicker(); });
+
+// ───────────────────────── No page zoom ─────────────────────────
+// Typing with two thumbs looks like a pinch to the browser, and double-tapping a key looks like
+// a double-tap zoom. iPhone Safari ignores user-scalable=no, so block both in code, and keep the
+// page at 100% so the whole keyboard is always on screen.
+for (const ev of ["gesturestart", "gesturechange", "gestureend"])
+  document.addEventListener(ev, (e) => e.preventDefault(), { passive: false });
+document.addEventListener("touchmove", (e) => {
+  const inCard = e.target.closest?.("#card");
+  if ((e.touches?.length ?? 0) > 1 || !inCard) e.preventDefault();               // the result card may still scroll
+}, { passive: false });
+let lastTouchEnd = 0;
+document.addEventListener("touchend", (e) => {
+  const now = Date.now();
+  // Only suppress the second tap of a quick double-tap on the keyboard (buttons elsewhere use click).
+  if (now - lastTouchEnd < 350 && e.target.closest?.("#kb")) e.preventDefault();
+  lastTouchEnd = now;
+}, { passive: false });
+document.addEventListener("dblclick", (e) => e.preventDefault());
+// Safety net: if the page somehow ends up zoomed, re-applying the viewport tag snaps it back.
+function resetZoomIfNeeded() {
+  const vv = window.visualViewport;
+  if (!vv || Math.abs(vv.scale - 1) < 0.02) return;
+  const meta = document.querySelector('meta[name="viewport"]');
+  const content = meta.content;
+  meta.content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no";
+  requestAnimationFrame(() => { meta.content = content; });
+}
+window.visualViewport?.addEventListener("resize", resetZoomIfNeeded);
 
 // ───────────────────────── Full screen ─────────────────────────
 // Browsers only allow this from a tap, so it happens when the player picks a character,

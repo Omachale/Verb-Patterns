@@ -252,3 +252,9 @@ body {
   box-shadow: 0 3px 0 #0002;
 }
 .level.on { background: var(--accent); color: #fff; box-shadow: 0 3px 0 #c45e1f; }
+
+/* No browser gestures anywhere except scrolling the result card */
+html, body, #app, #stage, #hud, #kb, .key { touch-action: none; }
+#card, #card * { touch-action: pan-y; }
+#card button { touch-action: manipulation; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
